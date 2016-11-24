@@ -1,0 +1,7825 @@
+@font-face
+  font-family: "huffington-icons"
+  font-style: normal
+  font-weight: normal
+  src: url(//s.m.huffpost.com/assets/huffington-icons-565b99fe553730bcfb497ef4155b8ffb.eot?#iefix) format("embedded-opentype"), url(//s.m.huffpost.com/assets/huffington-icons-59704d15ba4947671c15a22f154c050d.woff) format("woff"), url(//s.m.huffpost.com/assets/huffington-icons-2905f6474e0b743ce89abff16418e690.svg#huffington-icons) format("svg")
+
+
+body
+  width: 100%
+  &.mapi
+    background: #ffffff
+
+img
+  max-width: 100%
+  height: auto
+
+center img + em
+  display: block
+
+.body-wrap
+  overflow-x: hidden
+  width: 100%
+
+html
+  box-sizing: border-box
+
+*
+  box-sizing: inherit
+  \:before, :after
+    box-sizing: inherit
+
+.fyre
+  box-sizing: initial
+
+.clearfix:after
+  content: ""
+  display: table
+  clear: both
+
+.row
+  width: 100%
+  position: relative
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.col
+  float: left
+  &:nth-child(n+2)
+    padding-left: 5px
+
+.col-full
+  padding-left: 0
+  float: left
+  width: 100%
+
+.col-half
+  padding-left: 0
+  float: left
+  width: 50%
+
+.col-third
+  padding-left: 0
+  float: left
+  width: 33.33%
+
+.col-two-thirds
+  padding-left: 0
+  float: left
+  width: 66.66%
+
+.seperator
+  border-bottom: 1px solid #2e7061
+  padding-left: 5px
+  padding-right: 5px
+
+.hidden
+  display: none !important
+  visibility: hidden !important
+
+.flex-video
+  position: relative
+  padding-top: 1.5625rem
+  padding-bottom: 56.55%
+  height: 0
+  overflow: hidden
+  iframe, object, embed, video
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+  &.wapo
+    padding-bottom: 50%
+  &.vimeo
+    padding-top: 0
+  &.msnbc
+    padding-bottom: 91%
+
+.no-scroll
+  overflow: hidden
+
+.sponsor-container
+  border: 1px solid #e5e5e5
+  border-left: none
+  border-right: none
+
+html
+  font-family: sans-serif
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+
+body
+  margin: 0
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td
+  margin: 0
+  padding: 0
+
+code, kbd, pre, samp
+  font-family: monospace, serif
+  font-size: 1em
+
+pre
+  white-space: pre-wrap
+
+small
+  font-size: 80%
+
+sub
+  font-size: 75%
+  line-height: 0
+  position: relative
+  vertical-align: baseline
+
+sup
+  font-size: 75%
+  line-height: 0
+  position: relative
+  vertical-align: baseline
+  top: -0.5em
+
+sub
+  bottom: -0.25em
+
+figure
+  margin: 0
+
+fieldset
+  border: 1px solid silver
+  margin: 0 2px
+  padding: 0.35em 0.625em 0.75em
+
+legend
+  border: 0
+  padding: 0
+
+button, input, select, textarea
+  font-family: inherit
+  font-size: 100%
+  margin: 0
+
+button, input
+  line-height: normal
+
+button, select
+  text-transform: none
+
+button, html input[type="button"]
+  -webkit-appearance: button
+  cursor: pointer
+
+input
+  &[type="reset"], &[type="submit"]
+    -webkit-appearance: button
+    cursor: pointer
+
+button[disabled], html input[disabled]
+  cursor: default
+
+input
+  &[type="checkbox"], &[type="radio"]
+    box-sizing: border-box
+    padding: 0
+  &[type="search"]
+    -webkit-appearance: textfield
+    box-sizing: content-box
+    &::-webkit-search-cancel-button, &::-webkit-search-decoration
+      -webkit-appearance: none
+
+button::-moz-focus-inner, input::-moz-focus-inner
+  border: 0
+  padding: 0
+
+textarea
+  overflow: auto
+  vertical-align: top
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+img
+  border-style: none
+
+svg:not(:root)
+  overflow: hidden
+
+a
+  &:focus
+    outline: thin dotted
+  &:active, &:hover
+    outline: 0
+
+html
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  &.arabic
+    font-size: 120%
+    strong
+      text-shadow: 1px 0px
+      letter-spacing: 0.5px
+
+h1, h2, h3, h4, h5
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  line-height: 1.4em
+  font-weight: normal
+
+.arabic h1, .kr h1, .gr h1, .jp h1, .arabic h2, .kr h2, .gr h2, .jp h2, .arabic h3, .kr h3, .gr h3, .jp h3, .arabic h4, .kr h4, .gr h4, .jp h4, .arabic h5, .kr h5, .gr h5, .jp h5
+  font-weight: bold
+
+ul, ol
+  padding-top: 5px
+  padding-bottom: 5px
+
+blockquote
+  padding-top: 15px
+  padding-bottom: 15px
+  padding-left: 15px
+  padding-right: 15px
+  margin-top: 15px
+  margin-bottom: 15px
+  color: #444444
+  background: #f2f2f2
+  border: 1px solid #e5e5e5
+  line-height: 1.5em
+
+p
+  font-size: 1.0625rem
+
+a
+  color: #2e7061
+
+.modulous-debug-placement
+  border: solid 1px #666
+  border-radius: 3px
+  padding: 5px
+  background-color: #ffe69f
+  .placement-expand, .flights-expand
+    color: #00f
+    text-decoration: underline
+    cursor: pointer
+    &:hover
+      text-decoration: none
+  .placement-data
+    .meta-data
+      font-size: 12px
+      border: solid 1px #666
+      padding: 2px
+      margin-bottom: 5px
+      .data-key
+        border: solid 1px #888
+        padding: 2px
+        font-weight: bold
+        background-color: #ddd
+      .data-value
+        background-color: #fff
+        border: solid 1px #888
+        padding: 2px
+    .meta-data-nested
+      margin-bottom: 10px
+      .data-key
+        background-color: #ffe6e6
+  .data-table
+    display: none
+    &.active
+      display: block
+
+.below-entry-recirc__conversations-header, .corrections
+  display: none
+  display: inherit
+
+.popup-window__container.corrections
+  .popup-window__inner-container
+    background-color: #fff
+    position: relative
+    margin: 0 auto
+  .popup-window__modal-body-container
+    padding: 20px
+
+.send-corrections
+  margin: 25px 0
+  text-align: center
+
+.corrections__subheading
+  display: block
+
+.corrections__input
+  min-height: 125px
+  display: block
+  width: 100%
+  border: solid 1px #757575
+  margin-bottom: 15px
+
+.corrections__email
+  display: block
+  width: 100%
+  border: solid 1px #757575
+  margin-bottom: 15px
+
+.corrections__submit
+  margin-right: 15px
+  border: none
+  color: #FFF
+  background-color: #2e7061
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 150%
+
+.success .corrections__submit, .corrections__result--error
+  display: none
+
+.error .corrections__result--error
+  display: initial
+
+.corrections__result--success
+  display: none
+
+.success .corrections__result--success
+  display: initial
+
+.department--politics-news .custom-header__name
+  color: #203CDB
+
+.department--entertainment .custom-header__name
+  color: #E33224
+
+.department--whats-working .custom-header__name
+  color: #7810D0
+
+.department--wellness .custom-header__name
+  color: #00AFC5
+
+.department--voices .custom-header__name
+  color: #00A117
+
+.custom-header
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  margin-bottom: 7px
+
+.custom-header__image
+  max-height: 38px
+
+.custom-header__image--image-only
+  max-height: initial
+
+.custom-header__details
+  -webkit-align-self: flex-end
+  -ms-flex-item-align: end
+  align-self: flex-end
+
+.custom-header__name
+  font-size: 1.25rem
+  line-height: 1em
+  color: #2e7061
+  letter-spacing: 0.05em
+
+.custom-header__presented-by
+  font-size: 0.75rem
+  color: #555555
+  display: block
+
+.custom-header__link
+  line-height: 0
+  text-decoration: none
+
+.custom-header--centered
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  margin-bottom: 20px
+
+.department--politics-news
+  .entry-eyebrow--blog
+    color: #2e7061
+  .entry-eyebrow__link
+    color: #203CDB
+    &:hover
+      color: #314FF6
+
+.department--entertainment
+  .entry-eyebrow--blog
+    color: #2e7061
+  .entry-eyebrow__link
+    color: #E33224
+    &:hover
+      color: #F63E2F
+
+.department--whats-working
+  .entry-eyebrow--blog
+    color: #2e7061
+  .entry-eyebrow__link
+    color: #7810D0
+    &:hover
+      color: #9229EB
+
+.department--wellness
+  .entry-eyebrow--blog
+    color: #2e7061
+  .entry-eyebrow__link
+    color: #00AFC5
+    &:hover
+      color: #18CBE1
+
+.department--voices
+  .entry-eyebrow--blog
+    color: #2e7061
+  .entry-eyebrow__link
+    color: #00A117
+    &:hover
+      color: #0BBF25
+
+.entry-eyebrow
+  color: #2e7061
+  display: block
+  font-size: 1.0625rem
+  line-height: 1.1875rem
+  letter-spacing: 0.05em
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  margin-bottom: 3px
+
+.entry-eyebrow__link
+  text-decoration: none
+
+.entry-forehead
+  font-size: 0.75rem
+  color: #555555
+  display: block
+  margin-bottom: 7px
+
+.text
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  line-height: 1.5em
+  p
+    white-space: pre-wrap
+    iframe
+      max-width: 100%
+
+.extra-content
+  margin-bottom: 28px
+  .slideshow-thumb, .slideshow
+    margin-top: 0px
+  .slideshow-thumb-title
+    max-width: 630px
+    min-width: initial
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+    line-height: 22px
+  .slideshow-thumb-title--amp
+    padding-left: 15px
+
+.extra-content__title
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 0.875rem
+  line-height: 22px
+  color: #999999
+  margin: 8px 0
+  font-weight: bold
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  padding: 0 0px
+
+.extra-content__media
+  margin-top: 8px
+  > div > div
+    margin: 0 auto
+    &.slideshow-default__icon
+      margin-left: 10px
+      margin-right: 5px
+
+.live-stream
+  .top-media--video .logo__img
+    background: #333
+    height: 70px
+    padding: 12px
+    width: 100%
+  .schedule__item
+    list-style: none
+  .legal
+    font-size: 0.5625rem
+    color: #999999
+    margin-top: 7px
+    text-transform: uppercase
+
+@media screen and (max-width: 480px)
+  .live-stream .top-media--video .logo__img
+    padding: 0 40px
+
+.infographic_embed__open
+  position: absolute
+  top: 0
+  left: 0
+  margin: 50px
+  width: calc(100% - 100px)
+  z-index: 5000003
+  img
+    width: 100%
+
+.infographic_embed__overlay
+  background-color: rgba(0, 0, 0, 0.8)
+  width: 100%
+  position: absolute
+  top: 0
+  height: 100%
+  z-index: 5000002
+
+.read-on
+  text-decoration: none
+  display: block
+  text-align: center
+  background-color: #2e7061
+  padding-top: 15px
+  padding-bottom: 15px
+  margin-bottom: 10px
+  font-size: 0.875rem
+  line-height: 0.875rem
+  letter-spacing: -0.02em
+  color: #ffffff
+
+.sgc
+  display: block
+  text-align: center
+  text-decoration: none
+  color: #444444
+  border-bottom: 1px solid #e5e5e5
+
+.sgc__logo
+  display: block
+  margin: 0 auto
+
+.sgc__header
+  margin-top: 15px
+  font-weight: bold
+  font-size: 1.5rem
+  line-height: 1.2em
+  letter-spacing: -0.02em
+
+.sgc__partner
+  margin-bottom: 15px
+  color: #999999
+  font-size: 0.75rem
+  text-transform: uppercase
+
+.share-bar
+  display: none
+  display: inherit
+
+.share-bar__item
+  float: left
+  display: block
+  font-size: 1.875rem
+  height: 3.125rem
+  width: 3.125rem
+  line-height: 3.125rem
+  text-decoration: none
+  text-align: center
+  color: #ffffff
+  overflow: hidden
+  &:before
+    display: inline-block
+
+.share-bar__item-link
+  display: block
+  font-size: 1.875rem
+  height: 3.125rem
+  width: 3.125rem
+  line-height: 3.125rem
+  text-decoration: none
+  text-align: center
+  color: #ffffff
+  overflow: hidden
+  &:before
+    display: inline-block
+
+.share-bar__social-counts
+  float: left
+  width: 58px
+  height: 45px
+  border: 1px #e0e0e0 solid
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.5em
+  text-align: center
+  margin-right: 1px
+  color: #444444
+
+.share-bar__social-counts__number
+  line-height: 2.25em
+  vertical-align: middle
+  line-height: 45px
+
+.share-bar
+  .facebook .share-bar__item-link
+    background-color: #3b5999
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #2e4983
+  .twitter .share-bar__item-link
+    background-color: #55acef
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #2daae2
+  .email .share-bar__item-link
+    background-color: #727272
+    cursor: pointer
+    font-size: 1.25rem
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #505050
+  .sms .share-bar__item-link
+    background-color: #999999
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #8e8e8e
+  .google .share-bar__item-link
+    background-color: #dd4b34
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #d24731
+  .whatsapp .share-bar__item-link
+    background-color: #61be4f
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #54ac43
+  .kakao .share-bar__item-link
+    background-color: #fef600
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #efe700
+  .line .share-bar__item-link
+    background-color: #00c301
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #01af02
+  .pinterest .share-bar__item-link
+    background-color: #cb2028
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #a61b20
+  .tumblr .share-bar__item-link
+    background-color: #395877
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #314c68
+  .stumbleupon .share-bar__item-link
+    background-color: #ea4b24
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+  .linkedin .share-bar__item-link
+    background-color: #0078bb
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #016daa
+  .comments .share-bar__item-link
+    background-color: #2c9178
+    cursor: pointer
+    font-size: 1.25rem
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #26856d
+  .youtube .share-bar__item-link
+    background-color: #e52d27
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+  .phone .share-bar__item-link
+    background-color: #38c15b
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+  .podcast .share-bar__item-link
+    background-color: #8f35cb
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #8029ba
+  .snapchat .share-bar__item-link
+    background-color: #fffb00
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #f8f401
+  .facebook-messenger .share-bar__item-link
+    background-color: #3b5999
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #2e4983
+  .sms-bubble .share-bar__item-link
+    background-color: #999999
+    cursor: pointer
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #8e8e8e
+
+.wire-partner-component
+  padding-top: 5px
+  border-top: 1px dotted #999999
+  padding-top: 15px
+  margin-bottom: 10px
+  .wire-logo
+    display: inline-block
+  .ap
+    height: 22px
+    margin-bottom: -3px
+  .reuters
+    height: 24px
+    padding-top: 3px
+    margin-top: 3px
+  .wire-byline
+    display: inline-block
+    height: 17px
+    margin-left: 5px
+    padding-left: 7px
+    border-style: solid
+    border-width: 0 0 0 1px
+    border-color: #999
+    span
+      font-size: 0.75rem
+      margin-bottom: 4px
+      color: #666
+
+.mobileweb .wire-partner-component, .mapi .wire-partner-component
+  border-top: 1px dotted #999999
+
+.four04
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  color: #444444
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  text-align: center
+
+.four04__emoji
+  margin-bottom: 20px
+
+.four04
+  padding: 50px 0
+
+.four04__title
+  -webkit-box-ordinal-group: 3
+  -webkit-order: 2
+  -ms-flex-order: 2
+  order: 2
+  font-size: 1.875rem
+  line-height: 2.0625rem
+
+.four04__emoji
+  -webkit-box-ordinal-group: 2
+  -webkit-order: 1
+  -ms-flex-order: 1
+  order: 1
+  height: 140px
+
+.four04__message
+  -webkit-box-ordinal-group: 4
+  -webkit-order: 3
+  -ms-flex-order: 3
+  order: 3
+  font-size: 1.875rem
+  line-height: 2.0625rem
+
+.four10
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  padding: 100px 0 150px
+
+.four10__message
+  max-width: 400px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.75rem
+  text-align: center
+  line-height: 1.875rem
+
+.bottom_article_text
+  > div
+    width: 100% !important
+    > div
+      width: 100% !important
+  iframe
+    width: 100% !important
+
+.nav__item--open .dropdown
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  z-index: 5000001
+  max-height: 530px
+  opacity: 1
+  visibility: visible
+
+.dropdown
+  &.dropdown--open
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    z-index: 5000001
+    max-height: 530px
+    opacity: 1
+    visibility: visible
+  display: none
+  display: inherit
+
+.nav__item--open .dropdown
+  -webkit-transition: max-height 1s ease, opacity .2s ease, visibility .2s ease
+  transition: max-height 1s ease, opacity 0.2s ease, visibility 0.2s ease
+
+.nav__item--no-animate .dropdown
+  -webkit-transition: none
+  transition: none
+
+.dropdown
+  font-size: 1.125rem
+  line-height: 1.1em
+  left: 0px
+  position: absolute
+  background-color: black
+  border-bottom: 5px solid #2e7061
+  box-shadow: 0 10px 20px -4px rgba(0, 0, 0, 0.55)
+  top: 100%
+  width: 100%
+  display: none
+  overflow: hidden
+  font-family: "ProximaNovaCond-bold"
+  &.dropdown--open
+    border: 1px solid red
+
+.dropdown--section, .dropdown--d
+  display: block
+  visibility: hidden
+  opacity: 0
+  max-height: 0
+  -webkit-transition: max-height .5s ease, opacity 1s ease, visibility .2s ease
+  transition: max-height .5s ease, opacity 1s ease, visibility .2s ease
+  -webkit-transition-delay: 0s, .3s, .3s
+  transition-delay: 0s, .3s, .3s
+  overflow: hidden
+  z-index: 5000001
+
+.dropdown--all-sections
+  display: block
+  visibility: hidden
+  opacity: 0
+  max-height: 0
+  -webkit-transition: max-height 1s ease, opacity 3s ease, visibility .2s ease
+  transition: max-height 1s ease, opacity 3s ease, visibility .2s ease
+  -webkit-transition-delay: 0s, .1s, .7s
+  transition-delay: 0s, .1s, .7s
+  overflow: hidden
+  z-index: 5000001
+
+.dropdown--edition
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  width: auto
+  visibility: hidden
+  opacity: 0
+  max-height: 0
+  -webkit-transition: max-height 1s ease, opacity 3s ease, visibility .2s ease
+  transition: max-height 1s ease, opacity 3s ease, visibility .2s ease
+  -webkit-transition-delay: 0s, .1s, .7s
+  transition-delay: 0s, .1s, .7s
+  z-index: 5000001
+
+.dropdown__inner
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  min-height: 100%
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.dropdown__column
+  display: block
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  border-left: 1px solid #454545
+  padding: 20px 0
+  &:last-of-type
+    border-right: 1px solid #454545
+
+.dropdown__column--editions
+  width: 200px
+  &:last-of-type
+    border-right: none
+
+.dropdown__column--section, .dropdown__column--d
+  width: 17%
+  background-color: #1f1f1f
+
+.dropdown__column--entries
+  padding: 0
+  width: 22%
+  &[column="3"]
+    font-size: 1.375rem
+    line-height: 24px
+  &[column="4"] a, &[column="5"] a
+    height: 132px
+
+.dropdown__column--all-sections
+  width: 16.666%
+
+.dropdown__column--all-sections-featured:last-of-type
+  padding-top: 57px
+
+.dropdown__column__row
+  padding: 10px 15px
+  text-align: left
+  color: #ffffff
+  display: block
+
+.dropdown__column__row--title
+  text-decoration: underline
+
+.dropdown__column__row--link
+  display: block
+  text-decoration: none
+  &:hover
+    background-color: #2e7061
+
+.dropdown__column__row--entry
+  -webkit-box-flex: 1
+  -webkit-flex: 1 0 50%
+  -ms-flex: 1 0 50%
+  flex: 1 0 50%
+  padding: 20px
+  display: block
+  border-top: 1px solid grey
+  &:first-child
+    border-top: none
+
+.editions
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 0.6875rem
+  border-right: 1px solid #82a9a1
+  height: 100%
+  width: 100%
+  cursor: pointer
+  padding-left: 20px
+
+.editions__current-edition
+  -webkit-align-self: center
+  -ms-flex-item-align: center
+  align-self: center
+  width: 200px
+  position: relative
+
+.editions__current-edition__label
+  color: #82a9a1
+  font-size: 0.75rem
+  letter-spacing: 1.5px
+
+.editions__current-edition__edition
+  font-size: 1.5rem
+  font-family: "Times New Roman"
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 18px
+    color: #ffffff
+    padding-right: 5px
+  &.us:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 18px
+    color: #ffffff
+    padding-right: 5px
+
+.editions .editions__nav__list
+  display: none
+
+.editions--open, .editions:hover
+  background-color: #246054
+
+.editions--open
+  border-color: #246054
+  .dropdown
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    z-index: 5000000
+    border-color: #2e7061
+    max-height: 500px
+    opacity: 1
+    visibility: visible
+    -webkit-transition: max-height 1s ease, opacity .2s ease, visibility .2s ease
+    transition: max-height 1s ease, opacity 0.2s ease, visibility 0.2s ease
+
+.editions--no-animate .dropdown
+  -webkit-transition: none
+  transition: none
+
+.header--world
+  .editions
+    border-right: 1px solid #6286ab
+  .editions__current-edition__label
+    color: #96aec7
+  .editions--open, .editions:hover
+    background-color: #3f668f
+  .editions--open .editions__current-edition__label, .editions:hover .editions__current-edition__label
+    color: #96aec7
+
+.embed-asset
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  margin-top: 40px
+  margin-bottom: 40px
+  embed, iframe, video, object
+    max-width: 100%
+  iframe
+    display: block
+    margin: 0 auto
+  &:first-child
+    margin-top: 0
+  iframe
+    &.twitter-tweet, &.instagram-media
+      margin: 0 auto !important
+  blockquote
+    border: none
+    background-color: initial
+  .fb-post, .fb-video, .fb-post span, .fb-video span
+    display: block
+    margin: 0 auto
+  .five-min-container
+    .fmvps-wrapper div
+      margin: 0 auto
+    a.back-to-original
+      display: block
+      padding-top: 5px
+      &:hover
+        text-decoration: none
+
+.embed-code
+  > div:not([itemprop="video"]) > .flex-video, .flex-video > .flex-video
+    position: static
+
+.unsupported-content
+  margin-top: 5px
+  margin-bottom: 5px
+  height: 250px
+  width: 100%
+  background: url(//s.m.huffpost.com/assets/notsupported-ee3db5fb448b70efc8135b620ad2d47d.png) no-repeat center center
+
+.wide .embed-asset
+  max-width: 730px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.follow-us-snapchat-overlay
+  z-index: 5000011
+  position: fixed
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  background: rgba(13, 13, 13, 0.5)
+  color: #ffffff
+  margin: 0 auto
+
+.follow-us-snapchat-overlay__container
+  padding-top: 100px
+  width: 331px
+  margin: 0 auto
+
+.follow-us-snapchat-overlay__container__close
+  float: right
+  text-transform: uppercase
+  padding-bottom: 10px
+  padding-right: 10px
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.follow-us-snapchat-overlay__container__close__icon
+  float: right
+  padding-left: 10px
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 14px
+    color: #ffffff
+
+.follow-us-snapchat-overlay__container__close span
+  float: right
+
+.footer
+  display: none
+  display: inherit
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  color: #929292
+  background-color: #212121
+  text-align: center
+  font-size: 0.875rem
+  line-height: 1.25rem
+  padding: 40px 0
+
+.footer__list
+  padding: 0
+  margin: 0
+
+.footer__list__item
+  display: inline-block
+  padding: 0 6px
+
+.footer__list__item__link
+  text-decoration: none
+  color: #929292
+
+.header
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  background-color: #2e7061
+  margin-bottom: 20px
+
+.header__content
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  width: 100%
+  height: 80px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  -webkit-box-align: stretch
+  -webkit-align-items: stretch
+  -ms-flex-align: stretch
+  align-items: stretch
+
+.header__item, .header__section
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  height: 80px
+
+.header__editions
+  color: #ffffff
+  -webkit-box-flex: 0
+  -webkit-flex: 0 0 200px
+  -ms-flex: 0 0 200px
+  flex: 0 0 200px
+  position: relative
+
+.header__logo
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  -webkit-box-flex: 1
+  -webkit-flex: 1 1 100%
+  -ms-flex: 1 1 100%
+  flex: 1 1 100%
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+
+.header__tagline
+  color: #becdca
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 0.6875rem
+  margin-top: 4px
+  letter-spacing: 1px
+  font-weight: 300
+
+.header__social-list
+  -webkit-box-flex: 0
+  -webkit-flex: 0 0 200px
+  -ms-flex: 0 0 200px
+  flex: 0 0 200px
+
+.header--world
+  background: #5078a2
+  .logo__img
+    height: 60px
+  .header__backtohuffpost
+    color: #ffffff
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 200px
+    -ms-flex: 0 0 200px
+    flex: 0 0 200px
+    position: relative
+    border-right: 1px solid #6286ab
+    &:hover
+      background-color: #3f668f
+  .header__back_arrow
+    float: left
+    margin-right: 10px
+    height: 40px
+  .header__back_logo
+    float: left
+    height: 40px
+  .header__berggruen
+    text-align: center
+    color: #ffffff
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 200px
+    -ms-flex: 0 0 200px
+    flex: 0 0 200px
+    position: relative
+    border-left: 1px solid #6286ab
+    &:hover
+      background-color: #3f668f
+  .header__berggruen_link
+    margin: 0 auto
+  .header__berggruen_logo
+    height: 30px
+
+.logo
+  color: #ffffff
+  text-decoration: none
+  width: 410px
+  display: block
+
+.logo__img
+  width: 100%
+  height: 30px
+  display: block
+
+[role=main]
+  width: 100%
+  position: relative
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+body
+  max-width: none
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  position: relative
+  &.locked
+    overflow: hidden
+
+.main
+  position: relative
+
+body[data-locale=en_GB] .main
+  max-width: 980px
+  margin: 0 auto
+
+.blogs
+  border-right: 1px solid #dfdfdf
+  padding-right: 12px
+
+.below-entry__comments
+  border-top: 1px solid #e5e5e5
+  border-bottom: 1px solid #e5e5e5
+  margin-bottom: 20px
+  padding: 50px 0
+
+.wide .below-entry__content
+  width: 100%
+  max-width: 730px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  float: none
+  margin: 0 auto
+
+.b-page .right-rail
+  padding-left: 15px
+  float: left
+  width: 33.33%
+  max-width: 300px
+  float: right
+  margin-top: 5px
+  padding-left: 0
+  .below_right_rail_flex
+    margin-top: 30px
+    margin-bottom: 30px
+
+.static .right-rail
+  padding-left: 15px
+  float: left
+  width: 33.33%
+  float: right
+  margin-top: 5px
+
+.popup-window__container
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  position: absolute
+  z-index: 7000002
+  display: block
+  top: 0
+  left: 0
+  &.locked
+    width: 100%
+    height: 100%
+    text-align: center
+    background: rgba(0, 0, 0, 0.5)
+
+.popup-window__close-button
+  width: 36px
+  height: 36px
+  position: absolute
+  right: 0
+  top: 0
+  cursor: pointer
+  &.white:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 18px
+    color: #ffffff
+  &.black:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 18px
+    color: #000000
+  &:before
+    position: absolute
+    top: 10px
+    right: 10px
+  &:hover:before
+    color: #f00
+
+.popup-window__inner-container
+  box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.3)
+
+.nav
+  background-color: #ffffff
+  position: relative
+  width: 100%
+  height: 50px
+  border-bottom: 1px solid #e6e6e6
+
+.nav__inner
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  height: 100%
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  -webkit-box-pack: justify
+  -webkit-justify-content: space-between
+  -ms-flex-pack: justify
+  justify-content: space-between
+  font-size: 0px
+
+.nav__item
+  line-height: 50px
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1rem
+  letter-spacing: .05em
+  -webkit-box-flex: 1
+  -webkit-flex-grow: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  text-align: center
+
+.nav__item__link
+  color: #000000
+  text-decoration: none
+
+.nav__item--all-sections
+  cursor: default
+
+.nav__item:after
+  display: block
+  content: ''
+  border-bottom: 5px solid #2e7061
+  margin-top: -6px
+  -webkit-transform: scaleX(0)
+  -ms-transform: scaleX(0)
+  transform: scaleX(0)
+
+.nav__item--open:after
+  -webkit-transform: scaleX(1)
+  -ms-transform: scaleX(1)
+  transform: scaleX(1)
+  -webkit-transition: -webkit-transform 325ms ease-in-out
+  transition: transform 325ms ease-in-out
+
+.nav__item--current:after
+  -webkit-transform: scaleX(1)
+  -ms-transform: scaleX(1)
+  transform: scaleX(1)
+
+.nav__item--non-hover:after
+  -webkit-transform: scaleX(0)
+  -ms-transform: scaleX(0)
+  transform: scaleX(0)
+
+.nav__item--politics
+  &.nav__item:after
+    border-color: #203CDB
+  &.nav__item--open:after, &.nav__item--current:after
+    -webkit-transform: scaleX(1)
+    -ms-transform: scaleX(1)
+    transform: scaleX(1)
+  &.nav__item--non-hover:after
+    -webkit-transform: scaleX(0)
+    -ms-transform: scaleX(0)
+    transform: scaleX(0)
+  .dropdown
+    border-color: #203CDB
+  .dropdown__column__row:hover
+    color: #ffffff
+    background-color: #203CDB
+    color: #ffffff
+
+.nav__item--entertainment
+  &.nav__item:after
+    border-color: #E33224
+  &.nav__item--open:after, &.nav__item--current:after
+    -webkit-transform: scaleX(1)
+    -ms-transform: scaleX(1)
+    transform: scaleX(1)
+  &.nav__item--non-hover:after
+    -webkit-transform: scaleX(0)
+    -ms-transform: scaleX(0)
+    transform: scaleX(0)
+  .dropdown
+    border-color: #E33224
+  .dropdown__column__row:hover
+    color: #ffffff
+    background-color: #E33224
+    color: #ffffff
+
+.nav__item--whats-working
+  &.nav__item:after
+    border-color: #7810D0
+  &.nav__item--open:after, &.nav__item--current:after
+    -webkit-transform: scaleX(1)
+    -ms-transform: scaleX(1)
+    transform: scaleX(1)
+  &.nav__item--non-hover:after
+    -webkit-transform: scaleX(0)
+    -ms-transform: scaleX(0)
+    transform: scaleX(0)
+  .dropdown
+    border-color: #7810D0
+  .dropdown__column__row:hover
+    color: #ffffff
+    background-color: #7810D0
+    color: #ffffff
+
+.nav__item--wellness
+  &.nav__item:after
+    border-color: #00AFC5
+  &.nav__item--open:after, &.nav__item--current:after
+    -webkit-transform: scaleX(1)
+    -ms-transform: scaleX(1)
+    transform: scaleX(1)
+  &.nav__item--non-hover:after
+    -webkit-transform: scaleX(0)
+    -ms-transform: scaleX(0)
+    transform: scaleX(0)
+  .dropdown
+    border-color: #00AFC5
+  .dropdown__column__row:hover
+    color: #ffffff
+    background-color: #00AFC5
+    color: #ffffff
+
+.nav__item--voices
+  &.nav__item:after
+    border-color: #00A117
+  &.nav__item--open:after, &.nav__item--current:after
+    -webkit-transform: scaleX(1)
+    -ms-transform: scaleX(1)
+    transform: scaleX(1)
+  &.nav__item--non-hover:after
+    -webkit-transform: scaleX(0)
+    -ms-transform: scaleX(0)
+    transform: scaleX(0)
+  .dropdown
+    border-color: #00A117
+  .dropdown__column__row:hover
+    color: #ffffff
+    background-color: #00A117
+    color: #ffffff
+
+.nav--sticky
+  display: none
+  display: inherit
+  background-color: #2e7061
+  margin-bottom: 0
+  border-bottom: none
+  height: 100%
+  .nav__inner
+    max-width: initial
+    min-width: initial
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+  .nav__item
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: center
+    -webkit-justify-content: center
+    -ms-flex-pack: center
+    justify-content: center
+    border: none
+    color: #ffffff
+    letter-spacing: 2px
+    font-family: "ProximaNovaCond-bold"
+  .nav__item__link
+    padding-left: 5px
+    padding-right: 5px
+    overflow: hidden
+    white-space: nowrap
+    color: #ffffff
+  .nav__item--open, .nav__item--current
+    background: #246054
+  .nav__item--non-hover
+    background-color: #2e7061
+  .nav__item:hover
+    background: #246054
+
+.nav--secondary
+  border-top: 1px solid #6286ab
+  height: 33px
+  .nav__inner
+    max-width: 1100px
+    min-width: 980px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+  .nav__item
+    color: #ffffff
+    line-height: 33px
+    font-size: 0.9375rem
+    letter-spacing: 1px
+    text-decoration: none
+  .nav__item--open
+    background: #3f668f
+    border-bottom: none
+
+.nav--world
+  background: #5078a2
+  .nav__item
+    font-family: "ProximaNovaCond-bold"
+    &:hover
+      background: #456c94
+
+.popup-window__newsletter
+  position: absolute
+  display: block
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  background: rgba(0, 0, 0, 0.5)
+  color: #fff
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  text-align: center
+  z-index: 7000001
+
+.popup-window__newsletter_container
+  position: relative
+  width: 736px
+  margin: 0 auto
+  background-color: #2b9177
+  background: -webkit-linear-gradient(top, #2b9177, #2d6a5b)
+  background: linear-gradient(to bottom, #2b9177, #2d6a5b)
+  background: -webkit-linear-gradient(bottom, #2b9177, #2d6a5b)
+  background: -o-linear-gradient(bottom, #2b9177, #2d6a5b)
+
+.popup-window__newsletter_close
+  width: 44px
+  height: 44px
+  position: absolute
+  right: 0
+  top: 0
+  padding-top: 15px
+  cursor: pointer
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 14px
+    color: #ffffff
+
+.popup-window__newsletter_lead
+  font-size: 22px
+  font-weight: bold
+  padding-top: 50px
+
+.popup-window__newsletter_message
+  padding-top: 25px
+  color: #ff8080
+  font-weight: bold
+  min-height: 50px
+
+.popup-window__newsletter_list-name
+  font-weight: bold
+  font-size: 32px
+  padding-top: 50px
+  width: 425px
+  margin: 0 auto
+  span.break
+    display: block
+
+.popup-window__newsletter_input-container-text
+  border-bottom: 1px solid #ffffff
+  padding: 0 0 10px 0
+  margin: 0 auto
+  width: 325px
+
+.popup-window__newsletter_input-email
+  float: left
+  padding-top: 3px
+  padding-right: 10px
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 22px
+    color: #ffffff
+
+.popup-window__newsletter_input
+  background: transparent
+  border: none
+  width: 290px
+  color: #ffffff
+  font-style: italic
+  font-size: 20px
+  font-family: "Georgia", "Times New Roman", serif
+  &::-webkit-input-placeholder, &:-moz-placeholder, &::-moz-placeholder, &:-ms-input-placeholder
+    color: #ffffff
+
+.popup-window__newsletter_input-container-checkbox
+  padding-top: 30px
+  position: relative
+  width: 320px
+  margin: 0 auto
+
+.popup-window__newsletter_checkbox-container
+  float: left
+  width: 20px
+  height: 20px
+  border: solid 2px #fff
+  position: relative
+  padding: 2px
+
+.popup-window__newsletter_checkbox-inner
+  cursor: pointer
+  width: 12px
+  height: 12px
+  &.checked
+    background-color: #fff
+  &:hover
+    background-color: #999
+
+.popup-window__newsletter_checkbox
+  visibility: hidden
+
+.popup-window__newsletter_label
+  font-family: "Georgia", "Times New Roman", serif
+  font-size: 16px
+  font-style: italic
+  text-align: left
+  display: block
+  width: 320px
+  padding-left: 30px
+
+.popup-window__newsletter_label_link
+  color: #fff
+  &:hover
+    text-decoration: none
+
+.popup-window__newsletter_input-container-submit
+  width: 320px
+  margin: 0 auto
+  padding: 40px 0 50px 0
+
+.popup-window__newsletter_submit
+  margin: 0 auto
+  font-size: 17px
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-weight: bold
+  background-color: #fff
+  color: #2b9177
+  border: none
+  padding: 10px 30px
+
+.popup-window__newsletter_confirmation
+  height: 0
+  display: none
+  font-size: 18px
+  color: #fff
+  text-align: center
+  &.visible
+    padding: 50px 0
+    width: 500px
+    margin: 0 auto
+    height: auto
+    display: block
+
+.popup-window__newsletter_addendum
+  position: absolute
+  left: 15px
+  bottom: 15px
+  font-size: 10px
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.popup-window__newsletter_addendum_link
+  text-decoration: underline
+  color: #fff
+  &:hover
+    text-decoration: none
+
+.photo-strip
+  width: 100%
+  margin: 16px 0 30px
+
+.photo-strip__title
+  -webkit-box-pack: start
+  -webkit-justify-content: flex-start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.125rem
+  margin-bottom: 15px
+  width: 100%
+  position: relative
+  &:after
+    content: ''
+    border-bottom: 3px solid #000000
+    position: absolute
+    top: 50%
+    left: 133px
+    margin-top: -2px
+    width: 78%
+
+.photo-strip__carousel
+  width: 100%
+  height: 126px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+
+.photo-strip__entry
+  display: inline
+  width: 100px
+  height: 100px
+  margin-right: 5px
+  position: relative
+
+.photo-strip__entry__eyebrow
+  font-size: 0.8125rem
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  text-transform: capitalize
+  display: none
+
+.photo-strip__entry__eyebrow--politics-news
+  color: #203CDB
+
+.photo-strip__entry__eyebrow--entertainment
+  color: #E33224
+
+.photo-strip__entry__eyebrow--whats-working
+  color: #7810D0
+
+.photo-strip__entry__eyebrow--wellness
+  color: #00AFC5
+
+.photo-strip__entry__eyebrow--voices
+  color: #00A117
+
+.photo-strip__entry__image
+  width: 100%
+  height: 90px
+
+.photo-strip__entry
+  &:hover
+    z-index: 1999
+    .photo-strip__entry__content
+      position: absolute
+      width: 135px
+      height: 154px
+      top: 50%
+      left: 50%
+      -webkit-transform: translate(-50%, -50%)
+      -ms-transform: translate(-50%, -50%)
+      transform: translate(-50%, -50%)
+      border-left: 10px solid #ffffff
+      border-right: 10px solid #ffffff
+      box-sizing: initial
+    .photo-strip__entry__image
+      height: 135px
+    .photo-strip__entry__eyebrow
+      display: block
+  &:first-child:hover .photo-strip__entry__content
+    -webkit-transform: translate(-34%, -50%)
+    -ms-transform: translate(-34%, -50%)
+    transform: translate(-34%, -50%)
+
+.wide .pull-quote
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.pull-quote
+  padding-top: 15px
+  padding-bottom: 15px
+  padding-left: 15px
+  padding-right: 15px
+  margin-top: 15px
+  margin-bottom: 15px
+  display: block
+  background: transparent
+  border: none
+  border-left: 8px solid #2e7061
+  word-wrap: break-word
+  margin-left: 0px
+  .quote
+    margin-bottom: 10px
+    display: block
+    font-size: 1.875rem
+    font-weight: bold
+    font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    line-height: 1em
+    position: relative
+    font-style: normal
+    color: #000000
+    &:before
+      padding-top: 15px
+      content: '“'
+      font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+      color: #2e7061
+      font-size: 2em
+      display: block
+      height: 0.55em
+  .attribution
+    font-size: 0.75rem
+    display: block
+    &:before
+      content: "—"
+
+.entry__body blockquote.pull-quote
+  font-style: normal
+  color: #000000
+  border-left: 8px solid #2e7061
+  padding-left: 30px
+
+.share-bar-highlight
+  width: 80px
+  height: 58px
+  background-color: #ffffff
+  position: absolute
+  left: 25%
+  top: 0
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.28)
+  z-index: 5000001
+  line-height: 58px
+  vertical-align: middle
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-flex: 0
+  -webkit-flex: 0 0 100px
+  -ms-flex: 0 0 100px
+  flex: 0 0 100px
+  &:after
+    content: ""
+    position: absolute
+    width: 0
+    height: 0
+    margin-left: -0.5em
+    bottom: -23px
+    left: 40%
+    box-sizing: border-box
+    border: 12px solid #ffffff
+    -webkit-transform-origin: 0 0
+    -ms-transform-origin: 0 0
+    transform-origin: 0 0
+    -webkit-transform: rotate(-48deg)
+    -ms-transform: rotate(-48deg)
+    transform: rotate(-48deg)
+    box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.11)
+
+.share-bar-highlight__twitter
+  color: #000000
+  padding-left: 14px
+  text-decoration: none
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 24px
+    color: #55acef
+  &:hover
+    -webkit-transform: scale(1.2)
+    -ms-transform: scale(1.2)
+    transform: scale(1.2)
+
+.share-bar-highlight__facebook
+  color: #000000
+  padding-left: 10px
+  text-decoration: none
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 22px
+    color: #3b5999
+  &:hover
+    -webkit-transform: scale(1.2)
+    -ms-transform: scale(1.2)
+    transform: scale(1.2)
+
+.share-bar--horizontal
+  position: relative
+  height: 45px
+  margin-top: 15px
+  margin-bottom: 20px
+  max-width: 630px
+  .share-bar__list
+    position: static
+    padding: 0
+    list-style: none
+    height: 45px
+    float: left
+  .share-bar__item
+    display: block
+    font-size: 1.125rem
+    height: 2.8125rem
+    width: 4.0625rem
+    line-height: 2.8125rem
+    text-decoration: none
+    text-align: center
+    margin-right: 1px
+    &:before
+      display: inline-block
+  .share-bar__item-link
+    display: block
+    font-size: 1.125rem
+    height: 2.8125rem
+    width: 4.0625rem
+    line-height: 2.8125rem
+    text-decoration: none
+    text-align: center
+    &:before
+      display: inline-block
+  .fb-like
+    line-height: 33px
+    float: right
+    vertical-align: bottom
+    margin-top: 10px
+    iframe
+      z-index: 50000
+  &:after:after
+    content: ""
+    display: table
+    clear: both
+
+.share-bar--nav-sticky
+  position: relative
+  height: 60px
+  float: left
+  padding-top: 6px
+  .share-bar__list
+    position: static
+    padding-left: 0
+  .share-bar__item
+    display: block
+    font-size: 1.1875rem
+    height: 2.3125rem
+    width: 2.6875rem
+    line-height: 2.3125rem
+    text-decoration: none
+    text-align: center
+    margin-right: 5px
+    &:before
+      display: inline-block
+  .share-bar__item-link
+    display: block
+    font-size: 1.1875rem
+    height: 2.3125rem
+    width: 2.6875rem
+    line-height: 2.3125rem
+    text-decoration: none
+    text-align: center
+    border-radius: 2px
+    &:before
+      display: inline-block
+
+.share-bar--slideshow-top
+  position: relative
+  height: 60px
+  padding-top: 12px
+  left: 0
+  float: right
+  .share-bar__list
+    position: static
+    padding-left: 0
+  .share-bar__item
+    display: block
+    font-size: 1.125rem
+    height: 2.1875rem
+    width: 2.1875rem
+    line-height: 2.1875rem
+    text-decoration: none
+    text-align: center
+    margin-right: 10px
+    &:before
+      display: inline-block
+  .share-bar__item-link
+    display: block
+    font-size: 1.125rem
+    height: 2.1875rem
+    width: 2.1875rem
+    line-height: 2.1875rem
+    text-decoration: none
+    text-align: center
+    border-radius: 3px
+    &:before
+      display: inline-block
+
+.share-bar--slideshow-left
+  position: relative
+  height: 37px
+  padding-top: 0
+  left: 0
+  float: none
+  .share-bar__list
+    position: static
+    padding-left: 0
+    margin-bottom: 0
+  .share-bar__item
+    display: block
+    font-size: 0.875rem
+    height: 1.5625rem
+    width: 1.5625rem
+    line-height: 1.5625rem
+    text-decoration: none
+    text-align: center
+    margin-right: 5px
+    &:before
+      display: inline-block
+  .share-bar__item-link
+    display: block
+    font-size: 0.875rem
+    height: 1.5625rem
+    width: 1.5625rem
+    line-height: 1.5625rem
+    text-decoration: none
+    text-align: center
+    border-radius: 3px
+    &:before
+      display: inline-block
+
+.share-bar-div-wrapper, .share-bar-image-wrapper
+  display: block
+  position: relative
+
+.share-bar-div-wrapper .share-bar--instream, .share-bar-image-wrapper .share-bar--instream
+  display: none
+  position: absolute
+  left: 5px
+  top: 5px
+
+.share-bar-div-wrapper:hover .share-bar--instream, .share-bar-image-wrapper:hover .share-bar--instream
+  display: block
+
+.social-list
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  height: 100%
+  -webkit-justify-content: space-around
+  -ms-flex-pack: distribute
+  justify-content: space-around
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  border-left: 1px solid #82a9a1
+  -webkit-box-flex: 0
+  -webkit-flex: 0 0 218px
+  -ms-flex: 0 0 218px
+  flex: 0 0 218px
+
+.social-list__item
+  font-size: 1.25rem
+  color: #ffffff
+  text-decoration: none
+  padding: 15px
+  width: 45px
+  &:hover
+    -webkit-transform: scale(1.2)
+    -ms-transform: scale(1.2)
+    transform: scale(1.2)
+
+.social-list__item--facebook:before
+  content: ""
+  font-family: "huffington-icons"
+  font-style: normal
+  text-rendering: optimizeLegibility
+  text-transform: none
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  font-smoothing: antialiased
+
+.social-list__item--twitter
+  margin-left: 40px
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+
+.social-list__item--pinterest
+  margin-right: 40px
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+
+@media (max-width: 981px)
+  .social-list--sticky
+    display: none
+
+.header--world
+  .social-list
+    border-left: 1px solid #6286ab
+  .social-list__item
+    color: #96aec7
+    &:hover
+      color: #ffffff
+
+.text
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  line-height: 1.5em
+  p
+    white-space: pre-wrap
+    iframe
+      max-width: 100%
+    white-space: normal
+  max-width: 730px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  .link-out-link
+    font-style: italic
+  h3
+    color: #444444
+    font-size: 1.75rem
+    line-height: 1em
+    margin-top: 20px
+    margin-bottom: 20px
+  h4
+    color: #444444
+    font-size: 1.375rem
+    line-height: 1.1em
+    margin-top: 20px
+    margin-bottom: 20px
+
+.wide .text
+  max-width: 730px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.section-name
+  padding-top: 15px
+  padding-bottom: 15px
+  text-align: center
+
+.a-page__content
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+
+@media (max-width: 1190px)
+  .a-page__content
+    padding-left: 20px
+    padding-right: 20px
+
+.a-page__content__splash
+  width: 100%
+
+.a-page__content__splash--advanced
+  max-width: 1070px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-wrap: nowrap
+  -ms-flex-wrap: nowrap
+  flex-wrap: nowrap
+  min-height: 350px
+  margin-bottom: 0
+  padding-bottom: 0
+
+.a-page__content__splash--advanced__video
+  margin-bottom: 40px
+  min-height: 247px
+
+.a-page__content__splash--advanced__header
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  text-transform: uppercase
+  font-size: 21px
+  text-align: center
+  padding: 10px 0
+  margin: 0 20px
+
+.a-page__content__splash__left
+  -webkit-box-flex: 0
+  -webkit-flex: 0 0 665px
+  -ms-flex: 0 0 665px
+  flex: 0 0 665px
+  .splash
+    min-width: inherit
+    max-width: inherit
+
+.a-page__content__splash__right
+  -webkit-box-flex: 1
+  -webkit-flex: 1 1 375px
+  -ms-flex: 1 1 375px
+  flex: 1 1 375px
+  padding-left: 30px
+
+.a-page__content__rail
+  padding-left: 0
+  padding-right: 0
+
+.a-page__content__rail--left
+  -webkit-box-flex: 1
+  -webkit-flex: 1 0 200px
+  -ms-flex: 1 0 200px
+  flex: 1 0 200px
+  margin-right: 25px
+  max-width: 250px
+  .recirc--vertical .recirc__title:first-child
+    margin-top: 0
+  .recirc p
+    margin-bottom: 12px
+
+@media (max-width: 1024px)
+  .a-page__content__rail--left
+    margin-right: 10px
+
+.a-page__content__rail--middle
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-flex: 1
+  -webkit-flex: 1 0 400px
+  -ms-flex: 1 0 400px
+  flex: 1 0 400px
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  -webkit-align-content: flex-start
+  -ms-flex-line-pack: start
+  align-content: flex-start
+  max-width: 540px
+
+@media (max-width: 1024px)
+  .a-page__content__rail--middle
+    .card--multi-headline .card__headline
+      font-size: 20px
+    .card__headline
+      font-size: 24px
+
+.a-page__content__rail--right
+  margin-left: 25px
+  max-width: 300px
+
+@media (max-width: 1024px)
+  .a-page__content__rail--right
+    margin-left: 10px
+
+.a-page__content__pagination
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1rem
+  text-align: center
+  margin-bottom: 28px
+  a
+    margin: 0 5px
+    text-decoration: none
+
+.a-page__follow-us
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.a-page__bottom__trending
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  .bottom_trending_flex
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 300px
+    -ms-flex: 0 0 300px
+    flex: 0 0 300px
+
+.a-page.section-video
+  .header
+    margin: 0
+    .nav
+      border-bottom: 1px solid #191919
+  .leaderboard_flex, .video_leaderboard_flex
+    background: #191919
+    padding: 30px 0
+    margin: 0
+
+.section-name
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.875rem
+  font-weight: 800
+  line-height: 1.875rem
+  letter-spacing: 0.9px
+  padding-top: 0
+
+.section-name--splash
+  padding-bottom: 0
+
+.a-page
+  &.department--politics-news .section-name
+    color: #203CDB
+  &.department--entertainment .section-name
+    color: #E33224
+  &.department--whats-working .section-name
+    color: #7810D0
+  &.department--wellness .section-name
+    color: #00AFC5
+  &.department--voices .section-name
+    color: #00A117
+
+.advertisement
+  display: none
+  display: inherit
+  width: 100%
+  text-align: center
+  &.sharebox_260x60
+    float: left
+    width: auto
+  &.slideshow_300x250_req iframe
+    display: block
+
+.wide .advertisement.sharebox_260x60 .ad_share_box
+  width: 260px
+  margin: initial
+
+.video .advertisement
+  &.leaderboard_flex, &.video_leaderboard_flex
+    background: #191919
+    padding: 30px 0
+    margin: 0
+
+.right-rail .advertisement
+  margin-bottom: 30px
+
+.leaderboard_flex, .video_leaderboard_flex
+  margin-bottom: 25px
+  margin-top: 30px
+
+.leaderboard_flex.fixed, .pushdown.fixed
+  padding-top: 25px
+  position: fixed
+  background-color: rgba(150, 150, 150, 0.2)
+  z-index: 4999999
+  -webkit-transition: top 500ms ease-in, padding-top 300ms ease-in
+  transition: top 500ms ease-in, padding-top 300ms ease-in
+
+.leaderboard_flex.fixed.sticky-nav-on, .pushdown.fixed.sticky-nav-on
+  padding-top: 85px
+
+.leaderboard_flex.primer > *, .pushdown.primer > *
+  visibility: hidden
+  display: none
+
+@-webkit-keyframes bounceInDown
+  from, 60%, 75%, 90%, to
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(0, -1000px, 0)
+    transform: translate3d(0, -1000px, 0)
+
+  60%
+    opacity: 1
+    -webkit-transform: translate3d(0, 5px, 0)
+    transform: translate3d(0, 5px, 0)
+
+  75%
+    -webkit-transform: translate3d(0, 1px, 0)
+    transform: translate3d(0, 1px, 0)
+
+  90%
+    -webkit-transform: translate3d(0, 0px, 0)
+    transform: translate3d(0, 0px, 0)
+
+  to
+    -webkit-transform: none
+    transform: none
+
+
+@keyframes bounceInDown
+  from, 60%, 75%, 90%, to
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+
+  0%
+    opacity: 0
+    -webkit-transform: translate3d(0, -1000px, 0)
+    transform: translate3d(0, -1000px, 0)
+
+  60%
+    opacity: 1
+    -webkit-transform: translate3d(0, 5px, 0)
+    transform: translate3d(0, 5px, 0)
+
+  75%
+    -webkit-transform: translate3d(0, 1px, 0)
+    transform: translate3d(0, 1px, 0)
+
+  90%
+    -webkit-transform: translate3d(0, 0px, 0)
+    transform: translate3d(0, 0px, 0)
+
+  to
+    -webkit-transform: none
+    transform: none
+
+
+.bounceInDown
+  -webkit-animation-name: bounceInDown
+  animation-name: bounceInDown
+  -webkit-animation-duration: 1.5s
+  animation-duration: 1.5s
+
+@-webkit-keyframes bounceOutUp
+  20%
+    -webkit-transform: translate3d(0, -10px, 0)
+    transform: translate3d(0, -10px, 0)
+
+  40%, 45%
+    opacity: 1
+    -webkit-transform: translate3d(0, 20px, 0)
+    transform: translate3d(0, 20px, 0)
+
+  to
+    opacity: 0
+    -webkit-transform: translate3d(0, -2000px, 0)
+    transform: translate3d(0, -2000px, 0)
+
+
+@keyframes bounceOutUp
+  20%
+    -webkit-transform: translate3d(0, -10px, 0)
+    transform: translate3d(0, -10px, 0)
+
+  40%, 45%
+    opacity: 1
+    -webkit-transform: translate3d(0, 20px, 0)
+    transform: translate3d(0, 20px, 0)
+
+  to
+    opacity: 0
+    -webkit-transform: translate3d(0, -2000px, 0)
+    transform: translate3d(0, -2000px, 0)
+
+
+.bounceOutUp
+  -webkit-animation-name: bounceOutUp
+  animation-name: bounceOutUp
+
+.author-card
+  display: -webkit-inline-box
+  display: -webkit-inline-flex
+  display: -ms-inline-flexbox
+  display: inline-flex
+  -webkit-box-orient: horizontal
+  -webkit-box-direction: normal
+  -webkit-flex-direction: row
+  -ms-flex-direction: row
+  flex-direction: row
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  -webkit-align-content: stretch
+  -ms-flex-line-pack: stretch
+  align-content: stretch
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: start
+  -webkit-justify-content: flex-start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  color: #999999
+  font-size: 0.75rem
+  line-height: 1.125rem
+  width: 100%
+  text-align: left
+
+[dir=rtl] .author-card
+  text-align: initial
+
+.author-card:last-child
+  margin-bottom: 0
+
+.author-card__headshot
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center center
+  margin-right: 15px
+  -webkit-box-flex: 0
+  -webkit-flex: 0 0 auto
+  -ms-flex: 0 0 auto
+  flex: 0 0 auto
+  border-radius: 50%
+  border: 1px #e5e5e5 solid
+  background-clip: content-box
+  height: 50px
+  width: 50px
+
+[dir=rtl] .author-card__headshot
+  margin-right: initial
+  margin-left: 15px !important
+
+.author-card__details
+  padding-right: 15px
+  -webkit-box-flex: 1
+  -webkit-flex: 1 1 auto
+  -ms-flex: 1 1 auto
+  flex: 1 1 auto
+
+[dir=rtl] .author-card__details
+  padding-right: initial
+  padding-left: 15px !important
+
+.author-card__details__link
+  text-decoration: none
+  color: inherit
+
+.author-card__details__name
+  letter-spacing: -0.01em
+  font-weight: bold
+  color: #2e7061
+
+.author-card--mega-phone .author-card__details__name
+  color: #2e7061
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    margin-right: 3px
+
+.author-page
+  .author-card
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+  .author-card__headshot
+    width: 100px
+    height: 100px
+  .author-card__microbio, .author-card__minibio
+    font-family: Arial, sans-serif
+    font-size: 1.125rem
+    color: #757575
+    margin-top: 10px
+    display: block
+  .author-card__details
+    font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    margin-bottom: 30px
+    padding: 0
+  .author-card__details__name
+    color: #000000
+    display: inline-block
+    font-size: 2.375rem
+  .author-card__social-container
+    display: inline-block
+    top: -8px
+    padding-left: 5px
+  .author-card__social
+    -webkit-flex-shrink: 0
+    -ms-flex-negative: 0
+    flex-shrink: 0
+    font-size: 1.0625rem
+    text-decoration: none
+    margin-left: 5px
+    margin-right: 5px
+  .author-card__social--twitter
+    position: relative
+    top: 1px
+    margin-left: 0
+    margin-right: 5px
+  .author-card__social--facebook
+    margin-left: 0
+    margin-right: 5px
+  .author-card__social--googleplus
+    color: #dd4b34
+    font-size: 2rem
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+      font-size: 22px
+
+.author-card__social--twitter, .author-card__social--facebook
+  border-radius: 50%
+  width: 22px
+  height: 22px
+  line-height: 19px
+  text-align: center
+  vertical-align: middle
+  margin-left: 0
+  margin-right: 3px
+
+.author-list
+  width: 630px
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.author-card
+  padding: 7px 0
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+
+.author-card__headshot
+  margin-right: 10px
+
+.author-card__details
+  -webkit-box-flex: 0
+  -webkit-flex: 0 1 auto
+  -ms-flex: 0 1 auto
+  flex: 0 1 auto
+
+.author-card__details-container
+  display: block
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.author-card__details__name
+  color: #2e7061
+  font-size: 0.8125rem
+  font-weight: 500
+  padding-right: 2px
+
+.author-card__social-container
+  position: relative
+  top: -3px
+
+.author-card__social
+  -webkit-flex-shrink: 0
+  -ms-flex-negative: 0
+  flex-shrink: 0
+  font-size: 1.0625rem
+  text-decoration: none
+
+.author-card__social--twitter
+  background-color: #55acef
+  color: #ffffff
+  position: relative
+  display: inline-block
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 11px
+
+.author-card__social--facebook
+  background-color: #3b5999
+  color: #ffffff
+  display: inline-block
+  line-height: 20px
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 11px
+
+.author-card__social--googleplus
+  color: #dd4b34
+  font-size: 2rem
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 22px
+
+.author-card__headshot
+  height: 40px
+  width: 40px
+
+.author-card__microbio
+  display: block
+
+.author-card--no-teaser
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+
+.wide
+  .author-list
+    width: 980px
+  .author-list-container .author-card
+    width: 33%
+
+.author-page
+  margin-top: 15px
+  margin-bottom: 15px
+  padding-left: 15px
+  padding-right: 15px
+  max-width: 980px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  &:after
+    content: ""
+    display: table
+    clear: both
+  .author-card
+    padding-bottom: 15px
+  .author-card__headshot
+    margin-right: 15px
+  .author-card__details
+    margin-bottom: 0
+    margin-top: 16px
+
+.author-page__content
+  margin-top: 15px
+
+.author-page__content__bio
+  font-family: Arial, sans-serif
+  font-size: 1.0625rem
+  padding-bottom: 30px
+  border-bottom: 1px solid #cccccc
+  color: #757575
+  p
+    width: 630px
+
+.author-page__content__entries
+  width: 630px
+  float: left
+
+.author-page__content #author-recirc
+  padding-bottom: 20px
+  padding-left: 0
+  padding-right: 0
+  .card
+    font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    padding-top: 20px
+    padding-bottom: 20px
+    border-bottom: 1px solid #cccccc
+    color: #000000
+    display: block
+    margin-bottom: 0
+    &:after
+      content: ""
+      display: table
+      clear: both
+  .card__content
+    -webkit-box-orient: horizontal
+    -webkit-box-direction: normal
+    -webkit-flex-direction: row
+    -ms-flex-direction: row
+    flex-direction: row
+  .card__headlines
+    -webkit-box-ordinal-group: 2
+    -webkit-order: 1
+    -ms-flex-order: 1
+    order: 1
+    width: 404px
+  .card__image
+    width: 225px
+    height: 126px
+  .card__date
+    font-size: 16px
+    padding-bottom: 10px
+  .card__link
+    font-size: 1.5rem
+    line-height: 24px
+
+.author-page__right
+  float: right
+  margin-left: 20px
+  width: 300px
+  height: 250px
+
+.more-entries-button
+  padding-top: 15px
+  padding-bottom: 15px
+  font-size: 0.875rem
+  font-weight: bold
+  color: #2e7061
+  letter-spacing: -0.02em
+  text-align: center
+  border-radius: 10px
+  border: 1px solid #e5e5e5
+  width: 30%
+  margin: 0 auto
+  cursor: pointer
+
+.blog-entry-eyebrow
+  font-family: "Arial Narrow"
+  font-weight: 700
+  font-size: 1.625rem
+  color: #2e7061
+  line-height: 4.125rem
+
+.books
+  margin-bottom: 30px
+
+.books__branding
+  border-bottom: 1px solid #444444
+  width: 100%
+  position: relative
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.books__branding--title
+  font-weight: bold
+  font-size: 0.875rem
+  line-height: 16px
+  float: left
+
+.books__branding--logo
+  float: right
+
+.books__content
+  padding-top: 10px
+  width: 100%
+  position: relative
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.books__content--left
+  width: calc(100% - 201px)
+  float: left
+
+.books__content--right
+  float: right
+  width: 201px
+
+.book
+  display: block
+  padding-bottom: 20px
+  width: 100%
+  position: relative
+  text-decoration: none
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.book__image
+  width: 75px
+  float: left
+
+.book__details
+  width: calc(100% - 75px)
+  float: right
+  padding-right: 20px
+  padding-left: 10px
+
+.book__details--title
+  color: #444444
+  font-weight: bold
+
+.book__details--author
+  font-size: 0.75rem
+  line-height: 16px
+
+.byline
+  padding-top: 15px
+  margin-bottom: 15px
+  border-top: 1px dotted #999999
+  padding-left: 0
+  padding-bottom: 0
+  list-style: none
+  padding-top: 10px
+  margin-bottom: 10px
+
+.byline__authors
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  max-width: 630px
+  .author-card
+    -webkit-box-flex: 1
+    -webkit-flex: 1 0 315px
+    -ms-flex: 1 0 315px
+    flex: 1 0 315px
+    -webkit-box-align: start
+    -webkit-align-items: flex-start
+    -ms-flex-align: start
+    align-items: flex-start
+  .author-card__microbio
+    line-height: 16px
+    max-width: 400px
+
+.byline--left-rail
+  border-top: none
+  padding-right: 20px
+  .author-card
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-box-flex: 0
+    -webkit-flex: 0 1 100%
+    -ms-flex: 0 1 100%
+    flex: 0 1 100%
+  .author-card__headshot
+    width: 50px
+    height: 50px
+    border-radius: 7%
+    margin-bottom: 4px
+  .author-card__details-container
+    margin: 4px 0
+  .author-card__details
+    padding: 0
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -ms-flex-direction: column
+    flex-direction: column
+  .author-card__microbio
+    margin: 4px 0
+    color: #666
+    -webkit-box-ordinal-group: 3
+    -webkit-order: 2
+    -ms-flex-order: 2
+    order: 2
+  .author-card__social-container
+    margin: 4px 0
+    -webkit-box-ordinal-group: 4
+    -webkit-order: 3
+    -ms-flex-order: 3
+    order: 3
+  .author-card__social--facebook
+    background-color: transparent
+    color: #3b5999
+    &:before
+      font-size: 1rem
+  .author-card__social--twitter
+    background-color: transparent
+    color: #55acef
+    &:before
+      font-size: 1rem
+  .author-card__social--googleplus
+    background-color: transparent
+    color: #dd4b34
+    &:before
+      font-size: 1rem
+
+.callout-highlight-share
+  position: fixed
+  bottom: 22px
+  left: 100px
+  width: 467px
+  height: 130px
+  background-color: #3EBA9E
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: horizontal
+  -webkit-box-direction: normal
+  -webkit-flex-direction: row
+  -ms-flex-direction: row
+  flex-direction: row
+  padding: 15px
+  z-index: 5000001
+
+.callout-highlight-share__icons
+  width: 105px
+  margin-right: 14px
+
+.callout-highlight-share__info
+  margin-top: 6px
+
+.callout-highlight-share__info__header
+  font-size: 1.3125rem
+  font-family: "ProximaNovaCond-bold"
+  color: #ffffff
+  margin-bottom: 6px
+
+.callout-highlight-share__info__text
+  font-size: 1rem
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  color: #ffffff
+
+.callout-highlight-share__close
+  cursor: pointer
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 16px
+    color: #ffffff
+
+.card__headline, .card__video .video-title
+  font-family: "ProximaNovaCond-bold", "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  color: #000000
+
+.card
+  display: block
+  margin-bottom: 20px
+  width: 100%
+  &:first-child
+    margin-top: 0
+
+.middle-rail .card
+  padding-left: 10px
+  padding-right: 10px
+
+.card__content
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  overflow: hidden
+
+.card__label
+  position: relative
+  color: #2e7061
+
+.card__label__text
+  position: relative
+  padding-right: 7px
+  background: #ffffff
+  display: inline-block
+  z-index: 2
+
+.card__headline
+  margin-top: 10px
+  margin-bottom: 10px
+  padding-right: 5px
+  font-size: 1.375rem
+  line-height: 1.1em
+
+.card__link
+  color: inherit
+  text-decoration: none
+
+.card__video
+  margin-bottom: 15px
+  padding-bottom: 15px
+  border-bottom: 1px solid #eee
+  .video-image
+    float: right
+    width: 100px
+  .video-title
+    text-decoration: none
+    font-size: 1.5rem
+    margin-right: 10px
+
+.card__image__cover-bg
+  width: 100%
+  height: 0
+  position: relative
+  padding-bottom: 56.26%
+  display: block
+  .card__image__src
+    background-size: cover
+    background-position: 50% 50%
+    width: 100%
+    height: 100%
+    position: absolute
+
+.card--invert
+  background: #191919
+  .card__label__text
+    background: #191919
+  .card__headline
+    color: #ffffff
+
+.card--no-label .card__label
+  display: none
+
+.a-page
+  &.department--politics-news .a-page__content__rail
+    .card__label
+      color: #203CDB
+      &::after
+        border-color: #203CDB
+    .card--section .card__headline
+      color: #203CDB
+      .card__link
+        color: inherit
+  &.department--entertainment .a-page__content__rail
+    .card__label
+      color: #E33224
+      &::after
+        border-color: #E33224
+    .card--section .card__headline
+      color: #E33224
+      .card__link
+        color: inherit
+  &.department--whats-working .a-page__content__rail
+    .card__label
+      color: #7810D0
+      &::after
+        border-color: #7810D0
+    .card--section .card__headline
+      color: #7810D0
+      .card__link
+        color: inherit
+  &.department--wellness .a-page__content__rail
+    .card__label
+      color: #00AFC5
+      &::after
+        border-color: #00AFC5
+    .card--section .card__headline
+      color: #00AFC5
+      .card__link
+        color: inherit
+  &.department--voices .a-page__content__rail
+    .card__label
+      color: #00A117
+      &::after
+        border-color: #00A117
+    .card--section .card__headline
+      color: #00A117
+      .card__link
+        color: inherit
+
+.middle-rail .card
+  margin-bottom: 35px
+
+.card__content
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+
+.card__label
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 0.875rem
+  margin-bottom: 10px
+  -webkit-box-ordinal-group: 2
+  -webkit-order: 1
+  -ms-flex-order: 1
+  order: 1
+
+.card__label__text
+  position: relative
+  padding-right: 10px
+  letter-spacing: 1.4px
+
+.card__label:after
+  content: ''
+  border-bottom: 3px solid #2e7061
+  position: absolute
+  top: 50%
+  left: 0
+  margin-top: -2px
+  width: 100%
+  z-index: 1
+
+.card__headlines
+  -webkit-box-ordinal-group: 4
+  -webkit-order: 3
+  -ms-flex-order: 3
+  order: 3
+
+.card__pill-text
+  font-size: 0.75rem
+  line-height: 1.125rem
+  letter-spacing: -0.01em
+  color: #757575
+
+.card__date
+  min-width: 100%
+
+.card__headline
+  font-size: 1.625rem
+  line-height: 1.75rem
+  margin: 12px 0
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-flow: row wrap
+  -ms-flex-flow: row wrap
+  flex-flow: row wrap
+  &.hover
+    text-decoration: underline
+
+.card__link
+  color: inherit
+  text-decoration: none
+  -webkit-box-ordinal-group: 4
+  -webkit-order: 3
+  -ms-flex-order: 3
+  order: 3
+
+.card__video
+  margin-bottom: 15px
+  padding-bottom: 15px
+  border-bottom: 1px solid #eee
+  .video-image
+    float: right
+    width: 100px
+  .video-title
+    text-decoration: none
+    font-size: 1.5rem
+    margin-right: 10px
+
+.card__image
+  -webkit-box-ordinal-group: 3
+  -webkit-order: 2
+  -ms-flex-order: 2
+  order: 2
+  display: block
+  position: relative
+
+.card__image__wrapper
+  line-height: 0
+  position: relative
+
+.card__image__credit
+  position: absolute
+  bottom: 0
+  right: 0
+  width: 100%
+  height: 16px
+  opacity: 0.5
+  background-color: #000000
+  font-family: Arial, sans-serif
+  font-size: 8px
+  line-height: 16px
+  vertical-align: middle
+  padding-right: 5px
+  letter-spacing: 0.2px
+  text-align: right
+  color: #ffffff
+  text-transform: uppercase
+  &.hide
+    display: none
+
+.card
+  .author-card
+    padding-top: 12px
+  .author-card__details__name
+    font-size: 12px
+
+.card--embed.card--media-right .card__image:before
+  left: 40px
+
+.card--media-right
+  .card__content
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: horizontal
+    -webkit-box-direction: normal
+    -webkit-flex-direction: row
+    -ms-flex-direction: row
+    flex-direction: row
+    -webkit-flex-wrap: wrap
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+  .card__label
+    width: 100%
+  .card__headlines
+    -webkit-box-ordinal-group: 2
+    -webkit-order: 1
+    -ms-flex-order: 1
+    order: 1
+    -webkit-box-flex: 1
+    -webkit-flex: 1 0 50%
+    -ms-flex: 1 0 50%
+    flex: 1 0 50%
+    max-width: 100%
+  .card__headline:first-of-type
+    margin-top: 0
+  .card__image
+    -webkit-box-ordinal-group: 3
+    -webkit-order: 2
+    -ms-flex-order: 2
+    order: 2
+    -webkit-box-flex: 1
+    -webkit-flex: 1 1 50%
+    -ms-flex: 1 1 50%
+    flex: 1 1 50%
+    max-width: 50%
+    padding-left: 10px
+  .card__image__src
+    width: 100%
+
+.card--light .card__headline
+  font-size: 1.5rem
+
+.card--media-right.card--light
+  .card__headlines, .card__date
+    -webkit-box-flex: 1
+    -webkit-flex: 1 0 65%
+    -ms-flex: 1 0 65%
+    flex: 1 0 65%
+  .card__image
+    -webkit-box-flex: 1
+    -webkit-flex: 1 1 35%
+    -ms-flex: 1 1 35%
+    flex: 1 1 35%
+    max-width: 35%
+
+.card--about .card__description
+  -webkit-box-ordinal-group: 4
+  -webkit-order: 3
+  -ms-flex-order: 3
+  order: 3
+  font-size: 0.875rem
+  line-height: 1.125rem
+  color: #757575
+  font-family: "Helvetica Neue"
+  padding-top: 10px
+
+.card--embed
+  .card__embed
+    -webkit-box-ordinal-group: 3
+    -webkit-order: 2
+    -ms-flex-order: 2
+    order: 2
+  .sigil--video.sigil--centered:before
+    width: 60px
+    height: 60px
+    font-size: 1.375rem
+    padding-left: 10px
+
+.card--multi-headline
+  .card__headline
+    font-size: 1.375rem
+    line-height: 1.375rem
+    padding-bottom: 12px
+    border-bottom: 1px solid #dbdbdb
+    &:last-of-type
+      border: none
+      padding-bottom: 0
+      margin-bottom: 0
+  .card__image__cover-bg
+    padding-bottom: 100%
+  &.card--media-right
+    .card__headline:first-of-type
+      margin-top: 0
+    .card__image__cover-bg
+      padding-bottom: 100%
+
+.card--section .card__headline
+  display: block
+  border-bottom: 1px solid #f2f2f2
+  padding-top: 7px
+  padding-bottom: 7px
+  font-size: 1.375rem
+  color: #2e7061
+  &:last-child
+    border: none
+
+.recirc--horizontal .card--big_title .card__headline
+  font-size: 1.625rem
+  line-height: 1.625rem
+
+.card--video-hub
+  padding-bottom: 20px
+  margin-bottom: 40px
+
+.a-page__content__rail .card--video-hub .card__content
+  max-width: initial
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.card--video-hub
+  .sigil--video.sigil--centered:before
+    width: 100px
+    height: 100px
+    font-size: 2.75rem
+    padding-left: 20px
+    border-width: 3px
+  .card__content
+    max-width: 1170px
+    min-width: 980px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-box-pack: justify
+    -webkit-justify-content: space-between
+    -ms-flex-pack: justify
+    justify-content: space-between
+    width: 100%
+    -webkit-flex-flow: row
+    -ms-flex-flow: row
+    flex-flow: row
+    padding: 0 20px
+  .card__embed
+    max-width: 800px
+    min-width: 570px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+    width: 100%
+    padding: 0
+  .card__details
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 300px
+    -ms-flex: 0 0 300px
+    flex: 0 0 300px
+    margin-right: 30px
+    position: relative
+    min-height: 450px
+  .card__label
+    font-size: 1.125rem
+    line-height: 1.25rem
+    margin-top: 0
+    margin-bottom: 5px
+    -webkit-box-ordinal-group: 3
+    -webkit-order: 2
+    -ms-flex-order: 2
+    order: 2
+    &:after
+      display: none
+  .card__label__text
+    padding-left: 0
+  .card__headlines
+    -webkit-box-ordinal-group: 4
+    -webkit-order: 3
+    -ms-flex-order: 3
+    order: 3
+  .card__headline
+    border: 0
+    color: #ffffff
+    font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    font-size: 1.375rem
+    font-weight: bold
+    letter-spacing: 0.04em
+    line-height: 1.5rem
+    margin-top: 0
+    margin-bottom: 5px
+    max-width: 720px
+    padding: 0
+  .card__content__ad
+    position: relative
+    bottom: 0
+  .card__image
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -webkit-flex-direction: column
+    -ms-flex-direction: column
+    flex-direction: column
+    -webkit-box-flex: 1
+    -webkit-flex: 1 0 600px
+    -ms-flex: 1 0 600px
+    flex: 1 0 600px
+    -webkit-box-ordinal-group: 2
+    -webkit-order: 1
+    -ms-flex-order: 1
+    order: 1
+    &:before
+      bottom: 50%
+      left: 50%
+      -webkit-transform: translate(-50%, 50%)
+      -ms-transform: translate(-50%, 50%)
+      transform: translate(-50%, 50%)
+      width: 100px
+      height: 100px
+      border-radius: 50%
+      margin: 0
+      font-size: 44px
+      line-height: 100px
+      padding-left: 22px
+  .card__description
+    color: #8d8d8d
+    font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    font-size: 1rem
+    font-weight: normal
+    line-height: 1.375rem
+    margin: 0 0 18px 0
+    max-height: 90px
+    overflow: auto
+    padding-top: 0
+    padding-bottom: 8px
+  .card__headline:hover
+    opacity: 1
+
+.card--originals
+  -webkit-box-flex: 1
+  -webkit-flex: 1 0 220px
+  -ms-flex: 1 0 220px
+  flex: 1 0 220px
+  margin-left: 10px
+  margin-right: 10px
+  margin-bottom: 60px
+  max-width: 280px
+
+.card--first-in-row
+  margin-left: 0px
+
+.card--last-in-row
+  margin-right: 0px
+
+@media (max-width: 980px)
+  .card--originals
+    -webkit-box-flex: 1
+    -webkit-flex: 1 0 180px
+    -ms-flex: 1 0 180px
+    flex: 1 0 180px
+    max-width: 220px
+
+.originals__content .card .card__content
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  -webkit-box-pack: start
+  -webkit-justify-content: flex-start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  .card__image
+    -webkit-box-ordinal-group: 2
+    -webkit-order: 1
+    -ms-flex-order: 1
+    order: 1
+    padding-left: 0
+    padding-right: 0
+  .card__headlines
+    -webkit-box-ordinal-group: 3
+    -webkit-order: 2
+    -ms-flex-order: 2
+    order: 2
+    font-size: 1.375rem
+    line-height: 1.5rem
+  .card__headline
+    border-bottom: none
+    margin-top: 10px
+    margin-bottom: 8px
+    padding: 0
+  .card__description
+    color: #8d8d8d
+    font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    font-size: 0.9375rem
+    line-height: 1.375rem
+    font-weight: normal
+    -webkit-box-ordinal-group: 4
+    -webkit-order: 3
+    -ms-flex-order: 3
+    order: 3
+
+.carousel
+  max-width: 852px
+  overflow: hidden
+  position: relative
+
+.carousel__sleeve
+  height: 100px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  position: relative
+  left: 50px
+
+.carousel__left
+  left: 0
+  padding-left: 7px
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+
+.carousel__right
+  right: 0
+  padding-left: 10px
+  &:after
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    line-height: 1
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+
+.carousel__left, .carousel__right
+  background: #191919
+  display: block
+  font-size: 2.75rem
+  width: 40px
+  height: 100px
+  opacity: 0.8
+  padding-top: 17px
+  position: absolute
+  top: 0
+  z-index: 200
+
+.carousel__left:hover, .carousel__right:hover
+  opacity: 0.9
+
+.carousel__left.disabled, .carousel__right.disabled
+  opacity: 0.2
+
+.carousel
+  .card
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 400px
+    -ms-flex: 0 0 400px
+    flex: 0 0 400px
+    max-width: 330px
+    margin-right: 15px
+    margin-bottom: 0
+    border-right: 1px solid #2a292f
+    padding: 20px 0
+    text-decoration: none
+  .card__content
+    -webkit-box-orient: horizontal
+    -webkit-box-direction: normal
+    -webkit-flex-direction: row
+    -ms-flex-direction: row
+    flex-direction: row
+    height: 100px
+    margin-left: 0
+    margin-right: 10px
+  .card__headlines
+    margin: 0 10px
+  .card__headline
+    color: #ffffff
+    font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    font-size: 1rem
+    font-weight: bold
+    height: 50px
+    line-height: 16px
+    overflow: hidden
+    &.hover
+      text-decoration: none
+  .card__image
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 90px
+    -ms-flex: 0 0 90px
+    flex: 0 0 90px
+    .video-sigil
+      &:before
+        content: ""
+        font-family: "huffington-icons"
+        font-style: normal
+        text-rendering: optimizeLegibility
+        text-transform: none
+        -moz-osx-font-smoothing: grayscale
+        -webkit-font-smoothing: antialiased
+        font-smoothing: antialiased
+        color: #ffffff
+        position: absolute
+        margin-top: -14px
+        margin-left: -14px
+        line-height: 28px
+        border-radius: 14px
+        text-align: center
+        height: 28px
+        width: 28px
+        background-color: rgba(0, 0, 0, 0.6)
+        border: 1px solid #ffffff
+        font-size: 0.75rem
+        padding-left: 6px
+      &::before
+        bottom: 5px
+        left: 20px
+      &.hover
+        opacity: 1
+        position: relative
+        &:before
+          content: ""
+          font-family: "huffington-icons"
+          font-style: normal
+          text-rendering: optimizeLegibility
+          text-transform: none
+          -moz-osx-font-smoothing: grayscale
+          -webkit-font-smoothing: antialiased
+          font-smoothing: antialiased
+          color: #ffffff
+          position: absolute
+          margin-top: -14px
+          margin-left: -14px
+          line-height: 28px
+          border-radius: 14px
+          text-align: center
+          height: 28px
+          width: 28px
+          border: none
+          font-size: 0.75rem
+          padding-left: 6px
+
+.comment-button
+  display: none
+  display: inherit
+  padding-top: 15px
+  padding-bottom: 15px
+  margin-top: 15px
+  margin-bottom: 15px
+  font-size: 1rem
+  letter-spacing: .3px
+  font-weight: bold
+  color: #2e7061
+  display: block
+  width: 312px
+  height: 60px
+  padding: 0 10px
+  margin: 0 auto
+  text-align: center
+  border-radius: 10px
+  border: 1px solid #e5e5e5
+  text-decoration: none
+  vertical-align: middle
+  line-height: 60px
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.contributor-disclaimer
+  border-bottom: 1px solid #e5e5e5
+  color: #999999
+  font-style: italic
+  font-size: 0.75rem
+  line-height: 1.45
+  font-weight: 200
+  padding-bottom: 20px
+  margin-top: 150px
+  margin-right: 20px
+
+.entry-corrections
+  display: none
+  display: inherit
+
+.popup-window__container.corrections
+  .popup-window__inner-container
+    width: 736px
+    position: relative
+    margin: 0 auto
+  .popup-window__modal-body-container
+    background-color: #fff
+    text-align: left
+    padding: 20px
+  .popup-window__inner-container
+    width: 736px
+  .popup-window__title
+    font-size: 28px
+    font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    margin-bottom: 10px
+  .popup-window__subheading
+    font-size: 18px
+    margin-bottom: 10px
+  .popup-window__form-container
+    border: 2px solid #2e7061
+    padding: 10px
+  .popup-window__form-error
+    color: #f00
+    font-size: 14px
+    margin-bottom: 10px
+  .popup-window__input-row
+    margin-bottom: 10px
+    &:after
+      content: ""
+      display: table
+      clear: both
+  .popup-window__input-label
+    float: left
+    padding-right: 10px
+    padding-top: 4px
+    font-size: 14px
+    width: 100px
+    &:after
+      content: ":"
+    label.error
+      color: #f00
+      font-weight: bold
+  .popup-window__input-label-textarea
+    font-size: 14px
+    label.error
+      color: #f00
+      font-weight: bold
+  .popup-window__input-label-textarea-limit
+    color: #666
+    font-style: italic
+  .popup-window__text-input
+    float: left
+    padding: 4px
+    border: solid 1px #cccccc
+    font-size: 14px
+    width: 400px
+  .popup-window__textarea-input
+    width: 585px
+    height: 50px
+    padding: 4px
+    border: solid 1px #cccccc
+    font-size: 14px
+  .popup-window__checkbox-label
+    font-size: 14px
+  .popup-window__instructions
+    font-size: 14px
+    font-style: italic
+    color: #666
+    margin-bottom: 10px
+  .popup-window__recaptcha-container
+    min-height: 78px
+  .popup-window__submit
+    background-color: #c4202c
+    color: #fff
+    font-size: 16px
+    font-weight: bold
+    padding: 10px
+    border: none
+    &:hover
+      background-color: #a90d18
+    &.disabled
+      background-color: #cccccc
+  .popup-window__cancel
+    background-color: #cccccc
+    color: #222
+    font-size: 16px
+    padding: 10px
+    border: none
+  .popup-window__confirmation
+    margin: 20px 0
+
+.entry-corrections
+  margin-bottom: 30px
+  .suggest-correction
+    color: #2e7061
+    font-size: 0.875rem
+    font-weight: bold
+
+.wide .entry-corrections
+  max-width: 730px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.curated-gravity
+  display: none
+  display: inherit
+  background-color: #009788
+  margin-bottom: 60px
+  padding: 30px 0
+  overflow: hidden
+
+.curated-gravity__inner-container
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  position: relative
+  text-decoration: none
+  display: block
+  color: #fff
+  font-size: 1.3125rem
+
+.curated-gravity__boxes
+  position: absolute
+  right: 0
+  top: -20px
+  background-image: url(//s.m.huffpost.com/assets/gravity_me_sprite-3bb1e0f16605848bce1d65bae955216c.png)
+  background-color: #fff
+  padding: 10px
+  width: 285px
+  height: 195px
+
+.curated-gravity__link
+  color: #fff
+  text-decoration: underline
+  &:hover
+    text-decoration: none
+
+.curated-gravity h3
+  color: #fff
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.75rem
+
+.popup-window__container.email-share
+  .popup-window__inner-container
+    width: 736px
+    position: relative
+    margin: 0 auto
+  .popup-window__modal-body-container
+    background-color: #fff
+    text-align: left
+    padding: 20px
+  .popup-window__title
+    font-size: 1.75rem
+    font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    margin-bottom: 10px
+  .popup-window__subheading
+    font-size: 1.125rem
+    margin-bottom: 10px
+  .popup-window__form-container
+    border: 2px solid #2e7061
+    padding: 10px
+  .popup-window__form-error
+    color: #f00
+    font-size: 0.875rem
+    margin-bottom: 10px
+  .popup-window__input-row
+    margin-bottom: 10px
+    &:after
+      content: ""
+      display: table
+      clear: both
+  .popup-window__input-label
+    float: left
+    padding-right: 10px
+    padding-top: 4px
+    font-size: 0.875rem
+    width: 100px
+    &:after
+      content: ":"
+    label.error
+      color: #f00
+      font-weight: bold
+  .popup-window__input-label-textarea
+    font-size: 0.875rem
+    margin-top: 10px
+    label.error
+      color: #f00
+      font-weight: bold
+  .popup-window__input-label-textarea-limit
+    color: #666
+    font-size: 0.875rem
+    font-style: italic
+  .popup-window__text-input
+    float: left
+    padding: 4px
+    border: solid 1px #cccccc
+    font-size: 0.875rem
+    width: 400px
+  .popup-window__textarea
+    float: left
+    margin-top: 5px
+  .popup-window__textarea-input
+    width: 545px
+    height: 50px
+    padding: 4px
+    border: solid 1px #cccccc
+    font-size: 0.875rem
+  .popup-window__checkbox-label
+    font-size: 0.875rem
+  .popup-window__instructions
+    font-size: 0.875rem
+    font-style: italic
+    color: #666
+    margin-bottom: 10px
+  .popup-window__recaptcha-container
+    min-height: 78px
+  .popup-window__submit
+    background-color: #c4202c
+    color: #fff
+    font-size: 1rem
+    font-weight: bold
+    padding: 10px
+    border: none
+    &:hover
+      background-color: #a90d18
+    &.disabled
+      background-color: #cccccc
+  .popup-window__cancel
+    background-color: #cccccc
+    color: #222
+    font-size: 1rem
+    padding: 10px
+    border: none
+
+.entry__header
+  margin-top: 15px
+  margin-bottom: 15px
+
+.entry__body
+  margin-top: 15px
+  color: #222222
+  word-wrap: break-word
+  .content-list-component
+    padding-left: 0px
+    padding-right: 0px
+  p
+    line-height: 27px
+    margin-bottom: 20px
+  ul, ol
+    padding-left: 2em
+    padding-top: 0
+    padding-bottom: 0
+    margin-bottom: 20px
+
+@media (max-width: 580px)
+  .entry__body
+    div[style], iframe[style], img[style]
+      max-width: 100%
+
+[dir=rtl] .entry__body
+  ul, ol
+    padding-left: initial
+    padding-right: 2em
+
+.entry__body
+  li
+    margin-bottom: 5px
+  ul li
+    font-size: 16px
+    line-height: 24px
+  blockquote
+    margin-top: 5px
+    margin-bottom: 25px
+    background-color: transparent
+    border: none
+    color: #757575
+    padding-left: 30px
+    font-size: 15px
+    font-style: italic
+    p:last-child
+      margin-bottom: 0
+
+.entry-static
+  width: 66%
+  float: left
+
+.entry
+  max-width: 1080px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+@media (max-width: 1190px)
+  .entry
+    padding-left: 20px
+    padding-right: 20px
+
+.entry__content
+  width: 100%
+  position: relative
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.entry__header
+  margin-top: 0
+  margin-bottom: 0
+
+.entry__body
+  padding-left: 0
+  float: left
+  width: 66.66%
+  max-width: 630px
+  margin-top: 5px
+  \::-moz-selection, ::selection
+    background-color: #e1e2c7
+
+@media (max-width: 980px)
+  .entry__body
+    padding-right: 40px
+
+.entry__mc-content
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+
+.entry__mc-content__rail--left
+  -webkit-box-flex: 0
+  -webkit-flex: 0 1 220px
+  -ms-flex: 0 1 220px
+  flex: 0 1 220px
+
+.entry__mc-content__rail--main
+  -webkit-box-flex: 1
+  -webkit-flex: 1 1 auto
+  -ms-flex: 1 1 auto
+  flex: 1 1 auto
+
+.entry__comments
+  max-width: 1170px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  margin-bottom: 50px
+  .comments
+    max-width: 700px
+
+@media (max-width: 1190px)
+  .entry__comments
+    padding-left: 10px
+    padding-right: 10px
+
+.entry--contributor
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  .entry__body
+    max-width: 820px
+    width: calc(100% - 340px)
+  .right-rail
+    width: 300px
+
+@media (max-width: 980px)
+  .entry--contributor .entry__body
+    padding-right: 0
+
+.wide
+  .entry
+    max-width: 970px
+    min-width: initial
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+  .entry__body
+    padding-left: 0
+    float: left
+    width: 100%
+    max-width: initial
+    float: none
+  .entry__content
+    max-width: none
+    margin: 0 auto
+
+.entry--left-rail
+  max-width: 1280px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  &:after
+    content: ""
+    display: table
+    clear: both
+  .entry__left-rail
+    width: 190px
+    min-height: 1px
+    float: left
+    margin-left: 48px
+  .entry__container
+    float: left
+    margin-left: 32px
+    margin-right: 32px
+    width: 978px
+  .entry__body
+    margin-right: 32px
+
+@media (max-width: 1295px)
+  .entry--left-rail
+    max-width: 1080px
+    min-width: 980px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+
+@media (max-width: 1295px)
+  .entry--left-rail .entry__left-rail
+    display: none
+
+.follow-author
+  margin-top: 30px
+  margin-bottom: 30px
+  font-weight: bold
+
+.department--politics-news .follow-us--right:before
+  background-color: #203CDB
+
+.department--entertainment .follow-us--right:before
+  background-color: #E33224
+
+.department--whats-working .follow-us--right:before
+  background-color: #7810D0
+
+.department--wellness .follow-us--right:before
+  background-color: #00AFC5
+
+.department--voices .follow-us--right:before
+  background-color: #00A117
+
+.follow-us
+  width: 100%
+  margin-bottom: 30px
+
+.follow-us__header
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.75rem
+  padding-bottom: 5px
+  font-size: 22px
+
+.follow-us--right
+  display: none
+  display: inherit
+
+.follow-us__networks:after
+  content: ""
+  display: table
+  clear: both
+
+.follow-us__networks_list
+  float: left
+  list-style: none
+  &:after
+    content: ""
+    display: table
+    clear: both
+  li
+    float: left
+    a
+      overflow: hidden
+
+.follow-us__window
+  border: 1px solid #cccccc
+  padding: 15px 15px 0 15px
+  font-size: 12px
+  position: relative
+  a
+    text-decoration: none
+
+.follow-us__networks__item
+  display: block
+  font-size: 1.875rem
+  height: 3.125rem
+  width: 3.125rem
+  line-height: 3.125rem
+  text-decoration: none
+  text-align: center
+  list-style: none
+  position: relative
+  cursor: pointer
+  float: left
+  margin-right: 10px
+  padding-left: 0
+  font-size: 1.125rem
+  font-weight: bold
+  &:before
+    display: inline-block
+
+.follow-us__networks__item__link__text
+  font-size: 1rem
+
+.follow-us__networks__item.snapchat
+  .follow-us__networks__item__link:before
+    content: ""
+    width: 30px
+    height: 30px
+    background-size: 100% 100%
+    background-image: url(//s.m.huffpost.com/assets/icon-snapchat-6f426f67c67349e70150b974c7bbdcba.png)
+  .follow-us__networks__item__link__text
+    color: #000000
+    line-height: 14px
+    padding-left: 48px
+    vertical-align: middle
+    margin-top: -28px
+    display: block
+
+.follow-us__networks__item__link
+  display: block
+  font-size: 1.875rem
+  height: 3.125rem
+  width: 3.125rem
+  line-height: 3.125rem
+  text-decoration: none
+  text-align: center
+  overflow: hidden
+  color: #ffffff
+  text-align: left
+  padding-left: 10px
+  &:before
+    display: inline-block
+  &.facebook
+    background-color: #3b5999
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #2e4983
+  &.twitter
+    background-color: #55acef
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #2daae2
+  &.email
+    background-color: #727272
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #505050
+  &.sms
+    background-color: #999999
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #8e8e8e
+  &.google
+    background-color: #dd4b34
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #d24731
+  &.whatsapp
+    background-color: #61be4f
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #54ac43
+  &.kakao
+    background-color: #fef600
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #efe700
+  &.line
+    background-color: #00c301
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #01af02
+  &.pinterest
+    background-color: #cb2028
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #a61b20
+  &.tumblr
+    background-color: #395877
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #314c68
+  &.stumbleupon
+    background-color: #ea4b24
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+  &.linkedin
+    background-color: #0078bb
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #016daa
+  &.comments
+    background-color: #2c9178
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #26856d
+  &.youtube
+    background-color: #e52d27
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+  &.phone
+    background-color: #38c15b
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+  &.podcast
+    background-color: #8f35cb
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #8029ba
+  &.snapchat
+    background-color: #fffb00
+    &:hover
+      background-color: #f8f401
+  &.facebook-messenger
+    background-color: #3b5999
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #2e4983
+  &.sms-bubble
+    background-color: #999999
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+    &:hover
+      background-color: #8e8e8e
+
+.follow-us__networks__item__link__text
+  display: block
+
+.follow-us__form__header
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.5rem
+  letter-spacing: 0.7px
+  line-height: 16px
+  margin-bottom: 10px
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 22px
+    color: "#000"
+    margin-right: 17px
+
+.follow-us__form__desc
+  color: #999999
+  margin-bottom: 20px
+  p
+    font-size: 0.875rem
+    line-height: 18px
+
+.newsletter-signup__email-input
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 15px
+  padding: 5px 0
+  border: none
+  border-bottom: 1px solid #cccccc
+  margin: 0 10px 0 0
+  width: 100%
+
+.newsletter-signup__message.error
+  color: #a94442
+  font-size: 0.75rem
+
+.newsletter-signup__submit
+  color: #2e7061
+  padding: 6px 0
+  font-weight: bold
+  font-size: 14px
+  border: none
+  background: #ffffff
+  width: auto
+  text-align: left
+  &.disabled
+    color: #efefef
+
+.newsletter-signup__submit-container
+  background-image: url(//s.m.huffpost.com/assets/loader-48a91e1b50a500c0defb23415ec9b874.gif)
+  background-repeat: no-repeat
+  background-position: -20px -20px
+  &.loading
+    background-position: 105px 3px
+
+.newsletter-signup__success-message
+  margin-left: 40px
+  margin-bottom: 5px
+  color: #999999
+  font-size: 0.875rem
+  line-height: 18px
+  letter-spacing: 0.4px
+
+.follow-us--wide
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  position: relative
+  &:before
+    display: block
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    width: 8px
+    background-color: #2e7061
+    z-index: 1
+  .follow-us__window
+    padding: 20px
+    margin-bottom: 10px
+    position: relative
+    &:after
+      content: ""
+      display: table
+      clear: both
+  .follow-us__header
+    position: relative
+    width: 300px
+  .follow-us__header__title
+    line-height: 24px
+  .follow-us__form
+    width: 100%
+    height: 80px
+    &:after
+      content: ""
+      display: table
+      clear: both
+  .follow-us__form__desc
+    position: absolute
+    width: 300px
+  .follow-us__form__container
+    position: absolute
+    width: 230px
+    top: 20px
+    left: 380px
+  .follow-us__form__header
+    display: none
+  .follow-us__form
+    .newsletter-signup__form
+      margin: 0
+    .newsletter-signup__message.error
+      margin-bottom: 10px
+      font-size: 0.875rem
+    .newsletter-signup__success-message
+      margin: 0
+    .newsletter-signup__email-input-container
+      margin-bottom: 13px
+    .newsletter-signup__email-input
+      background-color: #f3f3f3
+      padding: 10px
+      color: #9b9b9b
+      font-size: 1rem
+      width: 230px
+      border: none
+    .newsletter-signup__submit
+      color: #fff
+      background-color: #2e7061
+      border: solid 1px #000000
+      border-radius: 8px
+      width: 230px
+      font-size: 1rem
+      text-align: center
+      padding: 13px
+      &.disabled
+        background-color: #efefef
+        color: #757575
+  .follow-us__networks
+    margin-bottom: 0
+    padding-left: 0
+    &:after
+      content: ""
+      display: table
+      clear: both
+  .follow-us__networks__item
+    display: block
+    font-size: 1.375rem
+    height: 2.1875rem
+    width: 6.875rem
+    line-height: 2.1875rem
+    text-decoration: none
+    text-align: center
+    margin-right: 7px
+    &:before
+      display: inline-block
+    &.snapchat
+      .snapchat-icon
+        margin-left: 10px
+        margin-top: 3px
+      .follow-us__networks__item__link__text
+        margin-left: 0
+        margin-top: -32px
+  .follow-us__networks__item__link
+    display: block
+    font-size: 1.375rem
+    height: 2.1875rem
+    width: 6.875rem
+    line-height: 2.1875rem
+    text-decoration: none
+    text-align: center
+    text-align: left
+    &:before
+      display: inline-block
+  .follow-us__networks__item__link__text
+    margin-top: -35px
+    margin-left: 30px
+    font-size: 1rem
+  .follow-us__networks__item__link.snapchat
+    font-size: 1rem
+    padding-left: 0
+
+.follow-us--right
+  position: relative
+  &:before
+    display: block
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    height: 8px
+    background-color: #2e7061
+    z-index: 1
+  .follow-us__window
+    margin-top: 50px
+    margin-bottom: 60px
+    padding: 20px 20px 0 20px
+  .follow-us__header__title
+    font-size: 1.375rem
+    line-height: 1.4375rem
+  .follow-us__networks__item
+    display: block
+    font-size: 1.375rem
+    height: 2.75rem
+    width: 7.75rem
+    line-height: 2.75rem
+    text-decoration: none
+    text-align: center
+    margin-bottom: 15px
+    margin-right: 10px
+    font-size: 1.125rem
+    &:before
+      display: inline-block
+    &.twitter, &.podcast
+      margin-right: 0
+    &.snapchat
+      width: 100%
+      .follow-us__networks__item__link__text
+        padding-left: 60px
+  .follow-us__networks__item__link
+    display: block
+    font-size: 1.375rem
+    height: 2.75rem
+    width: 7.75rem
+    line-height: 2.75rem
+    text-decoration: none
+    text-align: center
+    text-align: left
+    &:before
+      display: inline-block
+  .follow-us__networks__item__link__text
+    margin-top: -44px
+    padding-left: 38px
+  .follow-us__networks__item__link.snapchat
+    width: 100%
+  .newsletter-signup__form
+    margin-left: 40px
+    margin-bottom: 5px
+
+.gravity_curated_iframe
+  border: 0
+
+#gravity_curated_iframe_container iframe
+  min-height: 300px
+
+.headline__title
+  margin-right: 10px
+  color: #000000
+  font-size: 2.625rem
+  line-height: 1.1em
+  letter-spacing: -0.02em
+  max-width: 900px
+  word-wrap: break-word
+
+[dir=rtl] .headline__title
+  margin-right: initial
+  margin-left: 10px !important
+
+.headline__subtitle
+  margin-top: 5px
+  color: #757575
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-weight: normal
+  font-size: 1.125rem
+  line-height: 1.5rem
+  max-width: 630px
+  .emoji
+    font-weight: normal
+    font-family: helvetica
+
+.wide .headline
+  max-width: 900px
+
+.image
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  margin-top: 40px
+  margin-bottom: 40px
+  line-height: 0
+  &:first-child
+    padding-top: 0
+
+.image__credit, .image__caption
+  line-height: 1.4em
+  display: block
+  text-align: left
+
+.image__credit
+  font-size: 0.5625rem
+  color: #999999
+  margin-top: 5px
+  text-transform: uppercase
+
+.image__caption
+  font-size: 0.75rem
+  border-bottom: 1px dotted #cccccc
+  margin-top: 7px
+  padding-bottom: 8px
+  line-height: 16px
+  color: #666
+  p
+    padding-top: 0
+    padding-bottom: 0
+
+.image
+  max-width: 100%
+  display: block
+  text-align: center
+
+.image__caption, .image__credit
+  max-width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.image__caption
+  border-bottom: 1px dotted #cccccc
+
+body.legacy_header
+  .masthead
+    max-width: 980px
+    min-width: 980px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+  .logo-legacy
+    padding: 24px 0
+    a img
+      border: none
+      display: block
+      margin: 0 auto
+  .social-list-legacy--header
+    float: right
+    width: 30%
+    text-align: right
+    height: 32px
+    max-height: 35px
+    overflow: hidden
+    margin-bottom: 5px
+  .editions-legacy
+    float: left
+    width: 30%
+    &:after
+      content: ""
+      display: table
+      clear: both
+  .social-list-legacy__item
+    list-style: none
+    display: inline
+    margin-left: 5px
+    margin-right: 5px
+  .social-list-legacy__item--twitter
+    position: relative
+    vertical-align: middle
+  .nav-legacy
+    background-color: #2e7061
+    position: relative
+    display: table
+    font-size: 0px
+    margin-bottom: 20px
+    height: 30px
+    width: 980px
+    &.world
+      background-color: #5078a2
+  .nav-legacy__item
+    color: #ffffff
+    min-width: 40px
+    display: table-cell
+    text-align: center
+    vertical-align: middle
+    font-size: 16px
+    font-family: "Open Sans Condensed", Helvetica, sans-serif
+    text-transform: uppercase
+    text-decoration: none
+    font-weight: 600
+    -webkit-font-smoothing: antialiased
+    &:hover
+      color: #333
+      background-color: #fbfbfb
+  .nav-legacy__item--all-sections
+    background-color: #333
+    z-index: 5000000
+    &:hover .all-sections-legacy
+      display: block
+      z-index: 5000000
+  .all-sections-legacy
+    display: none
+  .editions-legacy__nav
+    font-family: Arial
+    font-size: 11px
+    float: left
+    cursor: pointer
+  .editions-legacy__nav__current-edition
+    padding: 10px 12px
+    border: 1px solid transparent
+    border-radius: 3px
+  .editions-legacy__nav__current-edition__edition
+    font-weight: bold
+  .editions-legacy__nav .editions-legacy__nav__list
+    display: none
+  .editions-legacy
+    .arrow-down-legacy:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+      font-size: 5px
+      color: #000000
+      line-height: 12px
+      vertical-align: middle
+    &:hover .editions__nav__current-edition
+      border-color: #cccccc
+    &.open
+      .current-edition
+        border-color: #404040
+        background: #404040
+        color: #ffffff
+        border-radius: 3px 3px 0 0
+        .arrow-down:before
+          color: #ffffff
+      .editions-legacy__nav__list
+        display: inherit
+    .editions-legacy__nav__list
+      list-style: none
+      position: absolute
+      background: #404040
+      z-index: 5000000
+      border-radius: 0 0 3px 3px
+      padding: 5px
+      min-width: 130px
+    .editions-legacy__nav__list__item
+      padding: 0px 5px
+      line-height: 25px
+      &:hover
+        background: #555555
+    .editions-legacy__nav__list__item__link
+      display: block
+      text-decoration: none
+      color: #ffffff
+    .editions-legacy__nav__list__item__link__edition
+      position: absolute
+      right: 10px
+      font-weight: bold
+  .all-sections-legacy
+    width: 100%
+    position: relative
+    top: 30px
+    background-color: #ffffff
+    color: #000000
+    font-weight: normal
+    text-transform: none
+    border: 2px solid #e5e5e5
+    border-top: none
+    position: absolute
+    left: 0
+    width: 100%
+    &:after
+      content: ""
+      display: table
+      clear: both
+    &:hover
+      display: block
+      z-index: 5000000
+  .all-sections-legacy__category
+    padding-left: 0
+    float: left
+    width: 100%
+    width: 139px
+    padding: 10px
+  .all-sections-legacy__category--title
+    border-bottom: 1px solid #000000
+  .all-sections-legacy__category__section
+    padding-top: 5px
+    padding-bottom: 5px
+    font-family: Arial, sans-serif
+    font-size: 0.75rem
+    line-height: 19px
+    color: #000000
+    border-bottom: 1px solid #e5e5e5
+    text-decoration: none
+    display: block
+    &:hover
+      color: #2e7061
+  .all-sections-legacy__mobile-apps
+    padding-left: 0
+    float: left
+    width: 100%
+  .mobile-apps
+    padding-top: 10px
+    padding-bottom: 10px
+    padding-left: 10px
+    padding-right: 10px
+    margin-top: 5px
+    margin-bottom: 5px
+    margin-left: 5px
+    margin-right: 5px
+    background-color: #f2f2f2
+    border: 1px solid #e5e5e5
+  .mobile-apps__item
+    padding-top: 10px
+    padding-bottom: 10px
+    padding-left: 10px
+    padding-right: 10px
+    text-decoration: none
+    color: #666666
+    font-family: Arial, sans-serif
+    font-size: 0.75rem
+    line-height: 19px
+  .mobile-apps__item--title
+    border-right: 1px solid #e5e5e5
+  .mobile-apps__item--app:hover
+    color: #2e7061
+  .mobile-apps__item .mobile-apps-icon:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 7px
+    color: #999999
+
+.listicle__slide-number-separator, .listicle__slide-total-number
+  color: #6e6e6e
+  font-weight: bold
+  font-size: 0.9375rem
+  line-height: 14px
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.listicle
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  list-style: none
+
+.listicle__slide
+  padding-top: 30px
+  &:first-child
+    padding-top: 15px
+
+.listicle__slide-header
+  padding-bottom: 15px
+  padding-bottom: 10px
+
+.listicle__slide-number
+  color: #ff1744
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  line-height: 24px
+  letter-spacing: 0.01em
+  font-size: 1.875rem
+  font-weight: bold
+  padding-right: 5px
+
+.listicle__slide-total-number
+  letter-spacing: 0.01em
+  padding-right: 5px
+
+.listicle__slide-title
+  font-weight: bold
+  font-size: 1.375rem
+  line-height: 24px
+  letter-spacing: -0.001em
+  color: #444444
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.listicle__slide-content
+  line-height: 0
+
+.listicle__slide-caption, .listicle__slide-credit
+  line-height: 1.4em
+  display: block
+
+.listicle__slide-caption
+  margin-top: 10px
+  margin-bottom: 10px
+  font-size: 1.0625rem
+  line-height: 27px
+  letter-spacing: -0.001em
+  color: #444444
+  &[data-type="product"]
+    display: none
+
+.listicle__slide-credits
+  margin-top: 5px
+  margin-bottom: 5px
+  font-size: 0.6875rem
+  line-height: 14px
+  letter-spacing: 0.030em
+  color: #999999
+
+amp-carousel .listicle__slide
+  background: #ffffff
+
+.wide
+  .listicle
+    text-align: center
+    max-width: 960px
+    min-width: initial
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+  .listicle__slide-credits, .listicle__slide-caption
+    text-align: left
+    margin-left: auto
+    margin-right: auto
+
+.live-blog:empty
+  position: relative
+  height: 100px
+  &:after
+    height: 75px
+    width: 75px
+    content: ""
+    background-image: url(//s.m.huffpost.com/assets/huffpost_loader-fill-25c611af03ed50ef497280bb0a582c6e.gif)
+    position: absolute
+    top: 50%
+    left: 50%
+    -webkit-transform: translate(-50%, -50%)
+    -ms-transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%)
+
+.live-blog__more
+  border-bottom: 8px solid #e5e5e5
+  height: 25px
+  width: 100%
+  font-size: 1.125rem
+  font-weight: bold
+  text-align: center
+  a
+    padding-top: 10px
+    padding-bottom: 10px
+    padding-left: 25px
+    padding-right: 25px
+    display: inline-block
+    background: #ffffff
+    text-decoration: none
+
+.fyre
+  .fyre-widget
+    .fyre-help, .fyre-follow-conversation, .fyre-login-bar, .fyre-live-container, .fyre-comment-user, .fyre-comment-author-tag, .fyre-comment-footer, .fyre-stream-stats
+      display: none
+  .fyre-comment-article .fyre-comment-body
+    margin-left: 0
+  .fyre-comment-stream
+    margin-bottom: 30px
+  .fyre-comment-count
+    color: #9399a1
+  .fyre-stream-sort
+    float: none
+    text-align: right
+    border: none
+    .fyre-stream-sort-options
+      border-bottom: 1px solid #e9e9e9
+  .fyre-comment-wrapper time.fyre-comment-date
+    font-size: 0.75rem
+    color: #a6a6a6
+    float: left
+
+.fyre-comment-raw-html
+  font-family: Arial, sans-serif
+  font-size: 1.0625rem
+  p
+    &.credit
+      margin-top: 10px
+      font-size: 1rem
+      line-height: 21px
+      letter-spacing: -0.001em
+      color: #444444
+      padding-bottom: 0
+    &:first-child, &:empty
+      padding: 0
+    a
+      color: #2e7061
+
+.fyre
+  .fyre-comment-head a.fyre-comment-username
+    color: #2e7061
+    font-family: Arial, sans-serif
+    font-size: 0.9375rem
+    font-weight: normal
+    display: none
+  .fyre-comment-source-5 .fyre-comment-divider > div.fyre-comment-divider
+    background-color: #e9e9e9
+    height: 1px
+    margin-top: 20px
+    margin-bottom: 20px
+
+.wide .live-blog
+  max-width: 580px
+  margin: 0 auto
+
+.live-blog
+  position: relative
+
+.nav-sticky
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  width: 100%
+  height: 65px
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.28)
+  z-index: 5000001
+  position: fixed
+  top: 0
+  left: 0
+  background-color: #ffffff
+  -webkit-transform: translateZ(0)
+  transform: translateZ(0)
+  -webkit-transition: -webkit-transform .33s
+  transition: transform 0.33s
+  &.hide
+    -webkit-transform: translateY(-100%)
+    -ms-transform: translateY(-100%)
+    transform: translateY(-100%)
+    box-shadow: none
+
+.nav-sticky__bar
+  width: 100%
+  height: 60px
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+
+.nav-sticky__item
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  height: 100%
+
+.nav-sticky__logo
+  width: 60px
+  background-color: #2e7061
+  -webkit-box-pack: center
+  -webkit-justify-content: center
+  -ms-flex-pack: center
+  justify-content: center
+  -webkit-flex-shrink: 0
+  -ms-flex-negative: 0
+  flex-shrink: 0
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 30px
+    color: #ffffff
+  &:hover
+    background-color: #246054
+    text-decoration: none
+
+.nav-sticky__title
+  display: inline-block
+  text-overflow: ellipsis
+  overflow: hidden
+  line-height: 60px
+  white-space: nowrap
+  font-size: 1.5rem
+  color: #0a0404
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  padding-left: 20px
+  -webkit-box-flex: 1
+  -webkit-flex-grow: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+
+.nav-sticky__sharebar
+  background-color: #ffffff
+  padding-left: 20px
+  padding-right: 10px
+  -webkit-flex-shrink: 0
+  -ms-flex-negative: 0
+  flex-shrink: 0
+  span
+    font-size: 0.75rem
+    float: left
+    padding-right: 10px
+    color: #999999
+
+.nav-sticky__progress-bar
+  width: 100%
+  background: #dcdbdb
+  height: 5px
+
+.nav-sticky__progress-bar__fill
+  width: 100%
+  background: -webkit-repeating-linear-gradient(145deg, #a4a4a4, #a4a4a4 2px, #e0e0e0 4px, #e0e0e0 4px)
+  background: repeating-linear-gradient(-55deg, #a4a4a4, #a4a4a4 2px, #e0e0e0 4px, #e0e0e0 4px)
+  height: 100%
+  max-width: 100%
+
+.nav-sticky__progress-bar__cover
+  width: 100%
+  background: #dcdbdb
+  float: right
+  height: 100%
+
+.nav-sticky--b-page
+  overflow: hidden
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+
+.nav-sticky--a-page
+  background-color: #2e7061
+  height: 70px
+  padding-top: 10px
+  top: -10px
+  .nav-sticky__logo
+    border-right: 1px solid #82a9a1
+
+.nav-sticky--world
+  background: #5078a2
+  .nav-sticky__logo, .nav--sticky
+    background: #5078a2
+
+.newsletter-signup--below-entry
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-flex: 1
+  -webkit-flex: 1 1 auto
+  -ms-flex: 1 1 auto
+  flex: 1 1 auto
+  -webkit-box-align: center
+  -webkit-align-items: center
+  -ms-flex-align: center
+  align-items: center
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  .newsletter-signup__header
+    -webkit-box-flex: 0
+    -webkit-flex: 0 1 auto
+    -ms-flex: 0 1 auto
+    flex: 0 1 auto
+    font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    font-size: 1.125rem
+    line-height: 1.75rem
+    margin-right: 5px
+    font-weight: bold
+  .newsletter-signup__form
+    -webkit-box-flex: 0
+    -webkit-flex: 0 0 263px
+    -ms-flex: 0 0 263px
+    flex: 0 0 263px
+  .newsletter-signup__form__label
+    display: none
+  .newsletter-signup__message
+    width: 100%
+
+.popup-window__container.newsletter-toaster
+  .popup-window__inner-container
+    position: fixed
+    bottom: 30px
+    left: 30px
+  .popup-window__modal-body-container
+    width: 620px
+    padding: 20px
+    background-color: rgba(0, 0, 0, 0.8)
+  .newsletter-toaster-body
+    padding-left: 90px
+    background-position: top left
+    background-repeat: no-repeat
+    min-height: 91px
+    &.politics
+      background-image: url(//s.m.huffpost.com/assets/newsletter-icons/Politics-878856e015e2faea3a730e84e7bb0c06.png)
+    &.entertainment
+      background-image: url(//s.m.huffpost.com/assets/newsletter-icons/Entertainment-a5ab7660beaa15c2d7a10ec6f2e8f541.png)
+    &.lifestyle
+      background-image: url(//s.m.huffpost.com/assets/newsletter-icons/Lifestyle-14771a23af63a9fa5d23aa7ac0395d8f.png)
+    &.queer-voices
+      background-image: url(//s.m.huffpost.com/assets/newsletter-icons/QueerVoices-84cb9686850a0edaa0842e6e12b934a3.png)
+    .newsletter-form-heading
+      font-family: "ProximaNovaCond-bold"
+      font-size: 1.375rem
+      color: #ffffff
+      line-height: 1.375rem
+      text-transform: uppercase
+      text-align: left
+      padding-top: 10px
+      margin-bottom: 10px
+      width: 480px
+    .newsletter-signup__email:after
+      content: ""
+      display: table
+      clear: both
+    .newsletter-signup__email-input-container
+      float: left
+    .newsletter-signup__email-input
+      width: 315px
+      padding: 10px
+      background-color: #999
+      color: #fff
+    .newsletter-signup__submit-container
+      float: left
+      width: 155px
+      background-image: url(//s.m.huffpost.com/assets/loader-black-789be664b8fdff0220fcdaa21d3f28ca.gif)
+      background-repeat: no-repeat
+      background-position: -20px -20px
+      &.loading
+        background-position: 133px 7px
+    .newsletter-signup__submit
+      background-color: #2e7061
+      color: #fff
+      border: solid 1px #000
+      border-radius: 7px
+      padding: 10px 30px
+      &.disabled
+        background-color: #333
+        color: #757575
+    .newsletter-signup__message
+      font-size: 0.75rem
+      margin-top: 10px
+      color: #fff
+    .newsletter-signup__success-message
+      margin: 0
+      &.success:before
+        content: ""
+        font-family: "huffington-icons"
+        font-style: normal
+        text-rendering: optimizeLegibility
+        text-transform: none
+        -moz-osx-font-smoothing: grayscale
+        -webkit-font-smoothing: antialiased
+        font-smoothing: antialiased
+        font-size: 36px
+        color: #00A117
+        position: absolute
+        top: 50px
+        left: 40px
+
+.newsletter-signup-container
+  max-width: 1080px
+  min-width: 980px
+  width: 100%
+  margin: 0 auto
+  .newsletter-content
+    float: left
+    width: 66.66%
+    max-width: 630px
+    margin-right: 30px
+    min-height: 500px
+  .title-image
+    margin-bottom: 10px
+  .newsletter-description
+    margin: 25px 0
+    line-height: 22px
+  .newsletter-notice
+    font-size: 0.625rem
+    color: #999
+    margin-bottom: 20px
+  .newsletter-right-rail
+    float: left
+    width: 33.333%
+    max-width: 350px
+    min-width: 300px
+  .newsletter-entry-list
+    border-style: solid
+    border-color: #ccc
+    border-width: 1px 0 0 0
+    margin-top: 10px
+    padding-top: 10px
+    .card.recirc__item
+      margin-bottom: 10px
+      .card__headline
+        font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+        font-size: 14px
+        color: #2e7061
+        margin: 0
+  .newsletter-signup__form
+    margin: 0 0 10px 0
+  .newsletter-signup__email-input
+    padding: 8px
+    border: solid 1px #999999
+    margin-bottom: 5px
+    width: 100%
+  .newsletter-signup__submit
+    color: #ffffff
+    background-color: #2e7061
+    padding: 10px
+    font-weight: bold
+    border: none
+    &.disabled
+      background-color: #efefef
+      color: #757575
+  .newsletter-signup__submit-container
+    background-image: url(//s.m.huffpost.com/assets/loader-48a91e1b50a500c0defb23415ec9b874.gif)
+    background-repeat: no-repeat
+    background-position: -20px -20px
+    &.loading
+      background-position: 125px 6px
+  .newsletter-signup__message.error
+    font-size: 0.875rem
+    margin-bottom: 5px
+  .newsletter-signup__success-message
+    margin: 0 0 20px 0
+
+.originals
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  padding: 0 20px
+
+.originals__content
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-flow: row wrap
+  -ms-flex-flow: row wrap
+  flex-flow: row wrap
+  -webkit-box-pack: start
+  -webkit-justify-content: flex-start
+  -ms-flex-pack: start
+  justify-content: flex-start
+
+.originals__title, .originals .card__label
+  margin-top: 3px
+  margin-bottom: 5px
+  position: relative
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.25rem
+  color: #2e7061
+
+.originals__title__text, .originals .card__label__text
+  position: relative
+  padding-right: 7px
+  padding-left: 0px
+  background: #ffffff
+  display: inline-block
+  z-index: 2
+  letter-spacing: 0.1em
+
+.originals__title:after, .originals .card__label:after
+  content: ''
+  border-bottom: 4px solid #2e7061
+  position: absolute
+  top: 50%
+  left: 0
+  margin-top: -2px
+  width: 100%
+  z-index: 1
+
+.partner-logo__img
+  max-height: 70px
+
+.embed-product
+  border: 1px solid #e3e3e3
+  margin-bottom: 20px
+  position: relative
+  background: #ffffff
+  color: #000000
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.embed-product__name
+  line-height: 1
+
+.embed-product__action
+  text-align: center
+
+.embed-product__price
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  line-height: 1
+
+.embed-product__thumbnail
+  float: left
+  width: 100px
+  height: 100px
+
+.embed-product__link, .slide-product__link
+  padding: 10px 25px
+  color: black
+  border-radius: 25px
+  background: #f6c24c
+  display: block
+  text-decoration: none
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  line-height: 1
+
+.embed-product__merchant
+  line-height: 1
+
+.slideshow-overlay__container__left__info__product, .slide-product__action
+  margin-top: 10px
+
+.slide-product__price
+  line-height: 1
+  display: block
+
+.slide-product__link
+  display: inline-block
+
+.slide-product__description
+  display: block
+  line-height: 1
+
+.slide-product__disclaimer
+  display: block
+  font-size: 0.8em
+  line-height: 1
+
+.embed-product
+  padding: 20px
+  width: 630px
+  font-size: 1em
+
+.embed-product__name
+  margin-right: 20px
+  width: 338px
+  min-height: 100px
+  padding-bottom: 20px
+  float: left
+
+.embed-product__disclaimer
+  font-size: 0.9em
+  position: absolute
+  bottom: 20px
+  left: 140px
+
+.embed-product__action
+  float: right
+  width: 110px
+
+.embed-product__link, .slide-product__link
+  margin: 20px 0 10px
+
+.embed-product__thumbnail
+  margin-right: 20px
+
+.slide-product__price
+  margin-top: 20px
+
+.recirc__item__image
+  width: 100%
+
+.recirc__item__image--external
+  height: 0
+  position: relative
+  padding-bottom: 56.26%
+  .recirc__item__image__src
+    background-size: cover
+    background-position: 50% 50%
+    width: 100%
+    height: 100%
+    position: absolute
+
+.recirc__item__author__name
+  color: #2e7061
+  font-weight: bold
+  font-size: 0.75rem
+  line-height: 0.9375rem
+  letter-spacing: -0.01em
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    margin-right: 3px
+
+.recirc__item__author__teaser
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  margin-bottom: 10px
+  color: #757575
+  font-size: 0.75rem
+  line-height: 0.9375rem
+  letter-spacing: -0.01em
+  display: inline-block
+
+.recirc
+  display: none
+  display: inherit
+  .author-card
+    line-height: 0.9375rem
+    letter-spacing: -0.01em
+    color: #757575
+
+.below-entry-recirc__gravity-header
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.75rem
+  margin: 10px 0
+
+@media (max-width: 1190px)
+  .below-entry-recirc__gravity-header
+    padding-left: 20px
+    padding-right: 20px
+
+.below-entry-recirc__conversations-header
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.75rem
+  padding-left: 10px
+  margin: 10px 0
+
+.recirc--horizontal
+  padding: 0 10px
+  background-color: #ffffff
+  color: #000000
+  border-top: 2px solid #e5e5e5
+  border-bottom: 2px solid #e5e5e5
+  padding: 30px 0
+  margin: 30px 0
+  width: 100%
+  .recirc__title, .recirc__content
+    max-width: 1170px
+    min-width: 980px
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+  .recirc__title
+    color: #000000
+    font-size: 1.75rem
+    line-height: 1.1em
+    letter-spacing: 0.05em
+    padding-bottom: 20px
+  .recirc__content
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-flex-wrap: wrap
+    -ms-flex-wrap: wrap
+    flex-wrap: wrap
+    overflow: hidden
+    -webkit-box-pack: start
+    -webkit-justify-content: flex-start
+    -ms-flex-pack: start
+    justify-content: flex-start
+  .card
+    padding-left: 10px
+    padding-right: 10px
+  .card__label__text
+    font-size: 0.875rem
+    background: #ffffff
+    padding-left: 0
+  .card__headline
+    font-size: 1.125rem
+    margin: 10px 0 4px 0
+    line-height: 20px
+    padding: 0
+  .card .author-card
+    padding-top: 0
+
+@media (max-width: 1190px)
+  .recirc--horizontal .recirc__title
+    padding-left: 20px
+    padding-right: 20px
+
+@media (max-width: 1190px)
+  .recirc--horizontal .recirc__content
+    padding-left: 10px
+    padding-right: 10px
+
+.recirc--no-border-bottom
+  border-bottom: none
+
+.recirc--rows-of-three .card
+  -webkit-box-flex: 1
+  -webkit-flex: 1 1 33.33333%
+  -ms-flex: 1 1 33.33333%
+  flex: 1 1 33.33333%
+  max-width: 33.33333%
+
+@media (min-width: 1190px)
+  .recirc--rows-of-three .card
+    &:nth-child(3n+1)
+      padding-left: 0
+      max-width: calc(33.33333% - 10px)
+    &:nth-child(3n)
+      padding-right: 0
+      max-width: calc(33.33333% - 10px)
+
+.recirc--rows-of-four .card
+  -webkit-box-flex: 1
+  -webkit-flex: 1 1 25%
+  -ms-flex: 1 1 25%
+  flex: 1 1 25%
+  max-width: 25%
+
+@media (min-width: 1190px)
+  .recirc--rows-of-four .card
+    &:nth-child(4n+1)
+      padding-left: 0
+      max-width: calc(25% - 10px)
+    &:nth-child(4n)
+      padding-right: 0
+      max-width: calc(25% - 10px)
+
+.recirc--rows-of-five .card
+  -webkit-box-flex: 1
+  -webkit-flex: 1 1 20%
+  -ms-flex: 1 1 20%
+  flex: 1 1 20%
+  max-width: 20%
+
+@media (min-width: 1190px)
+  .recirc--rows-of-five .card
+    &:nth-child(5n+1)
+      padding-left: 0
+      max-width: calc(20% - 10px)
+    &:nth-child(5n)
+      padding-right: 0
+      max-width: calc(20% - 10px)
+
+.recirc--most-shared .recirc__item
+  margin-bottom: 0
+
+.recirc--vertical.recirc--trending
+  margin-bottom: 50px
+  margin-top: 50px
+  .recirc__title
+    margin-top: 50px
+  .recirc__item:last-child
+    padding-bottom: 0
+  &.recirc--videos
+    margin-top: 30px
+    .recirc__title
+      margin-top: 30px
+
+.recirc--bottom-trending
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  margin-top: 0
+  padding-top: 0
+  border-top: none
+  .recirc__content
+    min-width: initial
+  &.recirc--rows-of-three .card:nth-last-child(n + 4), &.recirc--rows-of-four .card:nth-last-child(n + 5)
+    margin-bottom: 40px
+
+.a-page__bottom__trending .recirc--bottom-trending
+  border-bottom: none
+
+.recirc--videos
+  .card__image
+    padding-left: 0px
+  .card--media-right
+    .card__image
+      max-width: 124px
+    .card__image__cover-bg
+      padding-bottom: 70px
+    .sigil:before
+      left: 7px
+  .recirc__title
+    margin-top: 35px
+
+.recirc--page .recirc__item__image--external
+  width: 150px
+  height: 150px
+
+.recirc--carousel
+  border-top: 1px solid #2a292f
+  width: 100%
+  position: relative
+  padding: 0
+  margin: 0
+  .recirc__item__image--external
+    width: 90px
+    height: 51px
+  .recirc__item .card__content
+    width: 100%
+  .recirc__title__text
+    background: #191919
+    color: #ffffff
+    margin-left: 40px
+    font-size: 0.8125rem
+    letter-spacing: .1em
+    position: absolute
+    top: -11px
+    left: 0
+    padding: 0 10px
+    font-family: "ProximaNovaCond-bold"
+    z-index: 1
+  .recirc__carousel
+    max-width: 852px
+    overflow: hidden
+    position: relative
+
+.recirc--vertical
+  &.recirc--more-on
+    margin: 0 auto
+    width: 300px
+    .recirc__title
+      margin-bottom: 0
+    .card
+      padding: 20px
+      margin: 0
+      border: 1px solid #cccccc
+      border-top: none
+      &:hover
+        background-color: #f4f4f4
+      &:last-child
+        border: 1px solid #cccccc
+        border-top: none
+    .card__headline.hover
+      opacity: 1
+    .author-card
+      padding: 0px
+  border-bottom: 1px solid #e5e5e5
+  margin-bottom: 20px
+  &:last-child
+    border: 0
+  .recirc__title
+    border-bottom: 3px solid #2e7061
+    font-size: 0.9375rem
+    line-height: 1.1em
+    margin-top: 50px
+    margin-bottom: 20px
+  .recirc__title__text
+    background: #2e7061
+    color: #ffffff
+    display: inline-block
+    padding: 5px 10px 0px
+    letter-spacing: 2px
+    font-size: 0.875rem
+  .card
+    border-bottom: 1px solid #e5e5e5
+    padding-bottom: 20px
+  .card__headline
+    font-size: 1.125rem
+    line-height: 1.25rem
+    margin: 0
+  .card:last-child
+    border: none
+    margin: 0
+  .card--multi-headline
+    border-bottom: none
+  .author-card
+    margin: 0
+    padding: 8px 0
+
+.recirc--left-rail
+  display: inherit
+  .card
+    padding-bottom: 15px
+    margin-bottom: 15px
+    position: relative
+  .card__label
+    display: none
+  .card__headline
+    margin-top: 10px
+    font-size: 1.125rem
+  .card .author-card
+    margin-bottom: 8px
+    padding: 0
+    &:first-of-type
+      padding-top: 8px
+      padding-bottom: 0
+      margin-bottom: 0
+  .card--headshot
+    padding-bottom: 12px
+    margin-bottom: 12px
+  .card:first-of-type
+    &.card--autopilot .card__label, &.card--normal .card__label
+      display: block
+    &.card--autopilot .card__label__text, &.card--normal .card__label__text
+      visibility: hidden
+  .card--postit
+    padding: 0
+    margin-bottom: 12px
+    border: none
+    .card__label
+      display: block
+
+.recirc--left-rail-b-page
+  display: inherit
+  .recirc__title
+    position: relative
+    font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    font-size: 0.875rem
+    margin-bottom: 10px
+  .recirc__title__text
+    position: relative
+    padding-right: 10px
+    letter-spacing: 1.4px
+  .recirc__title:after
+    content: ''
+    border-bottom: 3px solid #000000
+    position: absolute
+    top: 50%
+    left: 78px
+    margin-top: -2px
+    width: 59%
+    z-index: 1
+  .card
+    padding-bottom: 12px
+    padding-top: 2px
+    margin-bottom: 0
+    border-bottom: 1px solid #e5e5e5
+  .card__headline
+    margin-top: 10px
+    margin-bottom: 0
+    font-size: 1.125rem
+    line-height: 20px
+  .card .author-card
+    padding-top: 6px
+    padding-bottom: 0
+
+.recirc--suggested-story
+  .recirc__title
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 0.875rem
+    line-height: 22px
+    color: #999
+    margin-bottom: 0px
+  .card__headline
+    font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    font-size: 1.75rem
+    line-height: 30px
+    color: #2e7062
+    text-decoration: none
+
+.wide .recirc--suggested-story
+  max-width: 730px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.entry__body
+  .related-articles
+    border-top: 1px solid #e5e5e5
+    border-bottom: 1px solid #e5e5e5
+    margin-bottom: 23px
+  .related-articles__title
+    margin-top: 20px
+    margin-bottom: 7px
+    font-size: 1.375rem
+    font-family: "ProximaNovaCond-bold"
+  .related-articles__list
+    list-style: none
+    margin-bottom: 25px
+  .related-articles__list__item
+    font-size: 1rem
+    line-height: 1.125rem
+    line-height: 20px
+    margin-bottom: 12px
+  .related-articles__list__item__title
+    text-decoration: none
+
+.wide .entry__body
+  .related-articles
+    max-width: 730px
+    min-width: initial
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+  .related-articles__list
+    max-width: 600px
+
+.entry__body
+  .related-articles__title
+    max-width: 400px
+    margin-left: 25px
+  .related-articles__list
+    margin-left: 25px
+    padding-left: 0px
+    max-width: 500px
+  .related-articles__list__item
+    font-size: 1rem
+    &:hover
+      text-decoration: underline
+
+.timestamp, .search-page .card__date
+  padding-top: 10px
+  padding-bottom: 10px
+  color: #999999
+  font-size: 0.75rem
+  line-height: 2em
+
+.timestamp:before, .search-page .card__date:before
+  content: ""
+  font-family: "huffington-icons"
+  font-style: normal
+  text-rendering: optimizeLegibility
+  text-transform: none
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  font-smoothing: antialiased
+  margin-right: 2px
+  display: inline-block
+  font-size: 0.75rem
+
+[dir=rtl]
+  .timestamp:before, .search-page .card__date:before
+    margin-right: initial
+    margin-left: 2px
+
+.search-page [dir=rtl] .card__date:before
+  margin-right: initial
+  margin-left: 2px
+
+.timestamp, .search-page .card__date
+  margin-top: 5px
+  padding-top: 0
+  padding-bottom: 0
+
+.search-huffpost
+  width: 40%
+  float: left
+  .search--submit
+    background: none
+    border: 1px solid #999999
+    padding: 2px 4px
+    border-left: none
+    &:before
+      content: ""
+      font-family: "huffington-icons"
+      font-style: normal
+      text-rendering: optimizeLegibility
+      text-transform: none
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased
+      font-smoothing: antialiased
+      font-size: 16px
+      color: #999999
+  .search--term
+    width: 215px
+    border: 1px solid #999999
+    color: #999999
+    padding: 2px 4px
+    &:focus
+      color: black
+  form
+    margin: 0 auto
+    width: 250px
+
+.nav__item--search
+  text-decoration: none
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 20px
+    color: #000000
+  &:hover:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 20px
+    color: #cccccc
+
+.nav--sticky .nav__item--search:before
+  content: ""
+  font-family: "huffington-icons"
+  font-style: normal
+  text-rendering: optimizeLegibility
+  text-transform: none
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  font-smoothing: antialiased
+  font-size: 20px
+  color: #ffffff
+
+.search-page
+  max-width: 980px
+  min-width: 1170px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  padding: 40px 30px 20px
+  -webkit-box-pack: justify
+  -webkit-justify-content: space-between
+  -ms-flex-pack: justify
+  justify-content: space-between
+  .card
+    margin-bottom: 0
+  .card__date
+    font-weight: normal
+    font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    -webkit-box-ordinal-group: 3
+    -webkit-order: 2
+    -ms-flex-order: 2
+    order: 2
+    margin-bottom: 10px
+    text-decoration: none
+  .card__headlines
+    -webkit-box-ordinal-group: 2
+    -webkit-order: 1
+    -ms-flex-order: 1
+    order: 1
+  .card__headline.hover
+    text-decoration: none
+    .card__link
+      text-decoration: underline
+  .card__image
+    min-width: 30%
+    max-width: 30%
+    margin-bottom: 10px
+  .card__content
+    padding-bottom: 30px
+
+@media (max-width: 1190px)
+  .search-page
+    padding-left: 20px
+    padding-right: 20px
+
+.search-page__param-cloud__tag
+  color: #ffffff
+  border-radius: 3px
+  padding: 2px 5px
+  margin: 0 5px 5px 0
+  display: inline-block
+
+.search-page__param-cloud__type_time
+  background: #E33224
+
+.search-page__param-cloud__type_section
+  background: #203CDB
+
+.search-page__param-cloud__type_author
+  background: #2e7061
+
+.search-page__param-cloud__type_type
+  background: #7810D0
+
+.search-page__param-cloud__close
+  background: none
+  border: none
+  font-size: 0.6875rem
+  color: #cccccc
+  margin-left: 3px
+  line-height: 1
+
+.search-page__container
+  -webkit-flex-basis: 66%
+  -ms-flex-preferred-size: 66%
+  flex-basis: 66%
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-flex-wrap: wrap
+  -ms-flex-wrap: wrap
+  flex-wrap: wrap
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  -webkit-box-pack: start
+  -webkit-justify-content: flex-start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  position: relative
+  &.locked
+    .search-page__keywords
+      pointer-events: none
+      tab-index: -1
+      color: #cccccc
+    button
+      color: #cccccc
+  .spinner
+    position: absolute
+    top: 0
+    right: -70px
+
+.search-page__right-rail
+  -webkit-flex-basis: 25%
+  -ms-flex-preferred-size: 25%
+  flex-basis: 25%
+  margin-top: 103px
+
+.search-page__keywords
+  position: relative
+  font-size: 3.75rem
+  line-height: 1
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  border: none
+  border-bottom: 1px solid #cccccc
+  background: transparent
+  padding: 0 30px 0 10px
+  margin-bottom: 20px
+  min-height: 70px
+  width: 100%
+
+.search-page__form
+  position: relative
+  width: 100%
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 20px
+    color: #cccccc
+    position: absolute
+    right: 10px
+    top: 25px
+    width: 20px
+    height: 20px
+
+.search-page__sortby
+  visibility: hidden
+  opacity: 0
+  position: absolute
+  width: 0
+  height: 0
+  top: 0
+  left: 0
+
+.search-page__results-params
+  margin-top: 25px
+  margin-right: 2%
+  list-style: none
+  -webkit-flex-basis: 32%
+  -ms-flex-preferred-size: 32%
+  flex-basis: 32%
+  li
+    border-top: solid 1px #cccccc
+    padding: 10px 0
+    position: relative
+
+.search-page__results-params__time-open, .search-page__results-params__author-open
+  color: #2e7061
+  &.menu-open:after
+    content: "-"
+
+.search-page__results-params__author-menu__input
+  margin-top: 10px
+  width: 60%
+  font-size: 1rem
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.search-page__results-params__section-open, .search-page__results-params__type-open
+  color: #2e7061
+  &.menu-open:after
+    content: "-"
+
+.search-page__results-params__time-menu__list
+  list-style: none
+
+.search-page__results-params__time-menu__specific-inputs__input__from
+  font-size: 0.8125rem
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.search-page__results-params__time-menu__specific-inputs__input__to
+  margin: 5px 0
+  font-size: 0.8125rem
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.search-page__results-filters
+  list-style: none
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  color: #cccccc
+
+.search-page__results-filters__list
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  list-style: none
+
+.search-page__results-filters__relevance
+  margin-right: 10px
+
+.search-page__results-filters__relevance__link
+  text-decoration: none
+  background: none
+  border: none
+  color: #2e7061
+  &[data-sorting="recency"]
+    color: #cccccc
+
+.search-page__results-filters__newest
+  margin-right: 10px
+
+.search-page__results-filters__newest__link
+  text-decoration: none
+  color: #cccccc
+  background: none
+  border: none
+  &[data-order="desc"]
+    color: #2e7061
+
+.search-page__results-filters__oldest__link
+  text-decoration: none
+  color: #cccccc
+  background: none
+  border: none
+  &[data-order="asc"]
+    color: #2e7061
+
+.search-page__search-results
+  width: 100%
+
+.search-page__filter__button, .search-page__results-params__time-open, .search-page__results-params__author-open, .search-page__results-params__author-menu__submit, .search-page__results-params__section-open, .search-page__results-params__section-menu__submit, .search-page__results-params__type-open, .search-page__results-params__type-menu__submit, .search-page__results-params__time-menu__past24__button, .search-page__results-params__time-menu__past7__button, .search-page__results-params__time-menu__specific-inputs__button, .search-page__results-params__time-menu__specific-inputs
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  background: none
+  border: none
+
+.search-page__filter__plus-minus, .search-page__results-params__time-open:after, .search-page__results-params__author-open:after, .search-page__results-params__section-open:after, .search-page__results-params__type-open:after
+  content: "+"
+  position: absolute
+  right: 0
+  top: 4px
+  color: #cccccc
+  font-size: 2rem
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.search-page__filter__select, .search-page__results-params__section-menu__select, .search-page__results-params__type-menu__select
+  width: 60%
+  margin-top: 10px
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  padding: 5px
+
+.sigil
+  position: relative
+  &:before
+    border-radius: 50%
+    width: 38px
+    height: 38px
+    position: absolute
+    bottom: 8px
+    left: 12px
+    z-index: 1
+    background-color: rgba(0, 0, 0, 0.6)
+    border: 2px solid rgba(255, 255, 255, 0.8)
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: center
+    -webkit-justify-content: center
+    -ms-flex-pack: center
+    justify-content: center
+
+.sigil--centered:before
+  bottom: 50%
+  left: 50%
+  -webkit-transform: translate(-50%, 50%)
+  -ms-transform: translate(-50%, 50%)
+  transform: translate(-50%, 50%)
+
+.sigil--video:before
+  content: ""
+  font-family: "huffington-icons"
+  font-style: normal
+  text-rendering: optimizeLegibility
+  text-transform: none
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  font-smoothing: antialiased
+  color: #ffffff
+  padding-left: 7px
+  font-size: 0.875rem
+
+.sigil--ryot:before
+  background-image: url(//s.m.huffpost.com/assets/ryot-video-sigil-0790e1704ce5bd515fa80debb8ebd532.gif)
+  background-size: 120px
+  background-repeat: no-repeat
+  background-position: center
+  display: inline-block
+  width: 60px
+  height: 60px
+  content: ""
+  position: absolute
+
+.sigil.hover:before
+  background-color: #2e7061
+  border: none
+
+.share-text
+  color: #888
+
+.slideshow
+  max-width: 630px
+  background-color: #000
+  color: #ffffff
+  width: 560px
+  height: 315px
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin: 20px 0
+  cursor: pointer
+  &.vertical
+    background-size: contain
+
+.slideshow__preview
+  position: relative
+  top: 210px
+  left: 20px
+  border-radius: 40px
+  vertical-align: middle
+  line-height: 70px
+  height: 70px
+  width: 390px
+  border: 1px solid #ffffff
+  background: rgba(13, 13, 13, 0.7)
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+
+.slideshow__preview__icon
+  float: left
+  width: 10%
+  margin-left: 30px
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 25px
+    color: #ffffff
+
+.slideshow__preview__text
+  height: 70px
+
+.slideshow__preview__text__title
+  font-size: 1.25rem
+  text-overflow: ellipsis
+  white-space: nowrap
+  overflow: hidden
+  width: 82%
+  height: 50px
+
+.slideshow__preview__text__count
+  height: 20px
+  font-family: Arial
+  font-size: 0.75rem
+
+.slideshow-overlay
+  z-index: 5000002
+  position: fixed
+  overflow: scroll
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  background: #0d0d0d
+  color: #ffffff
+
+.slideshow-overlay__header
+  background-color: #2a2828
+  height: 60px
+  width: 100%
+  min-width: 768px
+
+.slideshow-overlay__header__hp
+  width: 60px
+  height: 60px
+  line-height: 60px
+  text-align: center
+  vertical-align: middle
+  background-color: #2e7061
+  float: left
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 30px
+    color: #ffffff
+
+.slideshow-overlay__header__title
+  width: calc(100% - 400px)
+  height: 60px
+  line-height: 60px
+  vertical-align: middle
+  font-size: 1.875rem
+  font-weight: bold
+  float: left
+  margin-left: 20px
+  text-overflow: ellipsis
+  overflow: hidden
+  white-space: nowrap
+  letter-spacing: 0.5px
+
+.slideshow-overlay__header__share
+  width: 250px
+  height: 60px
+  line-height: 60px
+  vertical-align: middle
+  float: right
+
+.slideshow-overlay__header__close
+  float: right
+  width: 30px
+  height: 30px
+  vertical-align: middle
+  margin: 15px 0 15px 35px
+  opacity: 0.5
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 20px
+    color: #ffffff
+
+.slideshow-overlay__container
+  width: 100%
+  min-width: 768px
+  height: 643px
+  margin: 0 auto
+  border-bottom: 1px solid #2a292f
+
+.slideshow-overlay__container__ad-con
+  width: 100%
+  height: 110px
+  border-bottom: 1px solid #2a292f
+
+.slideshow-overlay__container__ad-con__top-ad
+  height: 100px
+  margin: 10px 0
+
+.slideshow-overlay__container__left
+  float: left
+  min-width: 380px
+  max-width: 380px
+  padding-left: 40px
+  padding-right: 40px
+  height: 641px
+  border-right: 1px solid #2a292f
+
+.slideshow-overlay__container__left__nav
+  width: 378px
+  height: 60px
+  border-bottom: 1px solid #2a292f
+  margin-left: -40px
+
+.slideshow-overlay__container__left__nav__prev
+  text-align: center
+  height: 60px
+  width: 60px
+  line-height: 60px
+  border-right: 1px solid #2a292f
+  margin-left: 58px
+  float: left
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 12px
+    color: #ffffff
+
+.slideshow-overlay__container__left__nav__current
+  text-align: center
+  vertical-align: middle
+  height: 60px
+  width: 60px
+  line-height: 60px
+  float: left
+
+.slideshow-overlay__container__left__nav__of
+  width: 25px
+  height: 60px
+  float: left
+  position: relative
+
+.slideshow-overlay__container__left__nav__of__line
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 49%
+  background-color: #2a292f
+  width: 1px
+  z-index: 10
+
+.slideshow-overlay__container__left__nav__of__word
+  background: #0d0d0d
+  z-index: 20
+  position: absolute
+  text-align: center
+  font-size: 0.75rem
+  height: 25px
+  line-height: 25px
+  vertical-align: middle
+  left: 0
+  right: 0
+  top: 50%
+  margin-top: -12px
+  color: #6e6e6e
+
+.slideshow-overlay__container__left__nav__total
+  text-align: center
+  border-right: 1px solid #2a292f
+  vertical-align: middle
+  line-height: 60px
+  height: 60px
+  width: 60px
+  float: left
+  color: #6e6e6e
+
+.slideshow-overlay__container__left__nav__next
+  text-align: center
+  height: 60px
+  width: 60px
+  line-height: 60px
+  float: left
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 12px
+    color: #ffffff
+
+.slideshow-overlay__container__left__info
+  height: 180px
+  width: 320px
+  padding-right: 20px
+  margin-top: 20px
+  overflow-y: auto
+  &::-webkit-scrollbar
+    width: 12px
+  &::-webkit-scrollbar-track
+    background-color: #333
+    border-radius: 10px
+  &::-webkit-scrollbar-thumb
+    border-radius: 10px
+
+.slideshow-overlay__container__left__info__slide-title
+  font-weight: bold
+  font-size: 1.125rem
+  color: #ffffff
+  font-weight: bold
+  padding-bottom: 10px
+
+.slideshow-overlay__container__left__info__slide-caption
+  padding-top: 5px
+  overflow-y: hidden
+  color: #6e6e6e
+  font-size: 0.875rem
+  line-height: 20px
+
+.slideshow-overlay__container__left__side-share
+  width: 100%
+  height: auto
+  margin-bottom: 20px
+  p
+    font-size: 0.75rem
+    padding: 5px 0 0
+    margin-bottom: 0
+
+.slideshow-overlay__container__left__side-ad
+  width: 100%
+  height: 80px
+
+.slideshow-overlay__container__content
+  width: 50%
+  width: calc(100% - 460px)
+  float: left
+  vertical-align: middle
+  line-height: 100%
+  &.overflow
+    overflow: auto
+
+.slideshow-overlay__container__content__slide
+  margin: 40px 0 0 40px
+  width: 100%
+  height: auto
+  max-height: 540px
+  max-width: 800px
+  img
+    max-height: 540px
+
+.slideshow-overlay__container__content__credit
+  color: #6e6e6e
+  font-size: 0.75rem
+  margin-left: 40px
+
+.slideshow-overlay__data
+  display: none
+
+.wide .slideshow
+  max-width: 630px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.slideshow-default
+  cursor: pointer
+  max-width: 630px
+  background: none
+  width: auto
+  height: auto
+
+.slideshow-default__title
+  font-size: 1.5rem
+  font-family: "ProximaNovaCond-Extrabld"
+  line-height: 24px
+  color: #333
+  float: left
+
+.slideshow-default__icon
+  margin-left: 5px
+  &:before
+    content: ""
+    font-family: "huffington-icons"
+    font-style: normal
+    text-rendering: optimizeLegibility
+    text-transform: none
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+    font-smoothing: antialiased
+    font-size: 23px
+    color: #333
+
+.slideshow-default__slide-count
+  font-size: 1.25rem
+  font-family: "ProximaNovaCond-Extrabld"
+  color: #333
+  padding-top: 2px
+  padding-left: 3px
+
+.breaking__header
+  display: none
+  position: absolute
+  left: 50%
+  top: -0.5px
+  -webkit-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+  color: red
+  font-size: 1.1rem
+
+.breaking--header .breaking__header
+  display: block
+
+.splash
+  margin-top: 15px
+  margin-bottom: 20px
+  padding-bottom: 20px
+  text-align: center
+  position: relative
+  word-wrap: break-word
+
+.splash__header
+  margin: 10px 15px
+  color: #000000
+  letter-spacing: -0.02em
+  display: block
+
+.splash__header--subtitle
+  line-height: 1em
+
+.splash__image
+  margin: 0 auto
+
+.splash__image-link
+  margin-top: 15px
+  margin-bottom: 15px
+
+.splash__link
+  color: #000000
+  text-decoration: none
+
+.splash__embed
+  .vdb_player > div
+    margin: 0 auto
+  .envrmnt-embed iframe
+    left: 0px
+
+.splash
+  max-width: 1170px
+  min-width: 980px
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  margin-top: 0
+  margin-bottom: 40px
+  padding-bottom: 0
+  &.breaking--breaking-bolt
+    margin-top: 27px
+    .splash__header
+      padding-top: 40px
+    .breaking__header
+      display: block
+      top: 5px
+      font-size: 1.875rem
+      &:before
+        content: ""
+        background: url(//s.m.huffpost.com/assets/breaking_bolt-7e36b86d142d60f0b2f8375a032ce5e6.gif) #fff no-repeat center
+        background-size: 19px 30px
+        height: 30px
+        margin-bottom: -15px
+        position: absolute
+        top: 5px
+        left: -28.5px
+        width: 19px
+      &:after
+        content: ""
+        background: url(//s.m.huffpost.com/assets/breaking_bolt-7e36b86d142d60f0b2f8375a032ce5e6.gif) #fff no-repeat center
+        background-size: 19px 30px
+        height: 30px
+        margin-bottom: -15px
+        position: absolute
+        top: 5px
+        right: -28.5px
+        width: 19px
+        -webkit-transform: scaleX(-1)
+        -ms-transform: scaleX(-1)
+        transform: scaleX(-1)
+
+.splash__published-on
+  background: #ffffff
+  display: block
+  padding: 3px 8px
+  position: absolute
+  top: 0
+  left: 50%
+  -webkit-transform: translateX(-50%) translateY(-50%)
+  -ms-transform: translateX(-50%) translateY(-50%)
+  transform: translateX(-50%) translateY(-50%)
+  font-size: 0.75rem
+
+.splash__published-on--day
+  color: #aaa
+  display: block
+
+.splash__published-on--date
+  font-weight: bold
+
+.splash__image__wrapper
+  line-height: 0
+  position: relative
+
+.splash__image-link:hover .splash__image__credit
+  display: block
+
+.splash__image__credit
+  position: absolute
+  bottom: 0
+  right: 0
+  left: 0
+  margin: 0 auto
+  height: 16px
+  opacity: 0.5
+  background-color: #000000
+  font-family: Arial, sans-serif
+  font-size: 8px
+  line-height: 18px
+  vertical-align: middle
+  padding-right: 5px
+  letter-spacing: 0.2px
+  text-align: right
+  color: #ffffff
+  display: none
+
+.splash__header
+  max-width: 900px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+  letter-spacing: -0.01em
+
+.splash__header--title
+  margin-bottom: 10px
+  .splash__row
+    margin-bottom: 12px
+    line-height: 0.9
+  .splash__link
+    line-height: 0.9
+    margin-bottom: 12px
+    display: inline
+    span:hover
+      text-decoration: underline
+      -moz-text-decoration-color: inherit
+      text-decoration-color: inherit
+
+.splash__header--subtitle
+  margin-top: 13px
+  font-family: "ProximaNovaCond-bold"
+  .splash__link
+    line-height: 1
+    margin-bottom: 12px
+    span:hover
+      text-decoration: underline
+      -moz-text-decoration-color: inherit
+      text-decoration-color: inherit
+
+.sticky
+  position: -webkit-sticky
+  position: sticky
+  top: 80px
+
+@media screen and (max-height: 700px)
+  .a-page__content__rail--right .sticky .recirc__item
+    &:nth-child(n+6):nth-child(-n+10)
+      display: none
+    &:nth-child(n + 5)
+      border: none
+
+@media screen and (max-height: 800px)
+  .a-page__content__rail--right .sticky .recirc__item
+    &:nth-child(n + 7):nth-child(-n + 10)
+      display: none
+    &:nth-child(n + 6)
+      border: none
+
+.tag-cloud
+  display: none
+  display: inherit
+  line-height: 16px
+  margin: 30px 0
+  h2
+    font-weight: bold
+    display: inline-block
+    font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+    font-size: 0.875rem
+    line-height: 1.5rem
+    color: #999999
+    margin: 8px 10px 8px 0
+  .tag
+    position: relative
+    background: #f2f2f2
+    padding: 7px
+    margin: 5px 5px 5px 0
+    text-decoration: none
+    font-size: 0.75rem
+    border-radius: 5px
+    display: inline-block
+
+.wide .tag-cloud
+  max-width: 730px
+  min-width: initial
+  width: 100%
+  margin-left: auto
+  margin-right: auto
+
+.timestamp, .search-page .card__date
+  padding-top: 10px
+  padding-bottom: 10px
+  color: #999999
+  font-size: 0.75rem
+  line-height: 2em
+
+.timestamp:before, .search-page .card__date:before
+  content: ""
+  font-family: "huffington-icons"
+  font-style: normal
+  text-rendering: optimizeLegibility
+  text-transform: none
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  font-smoothing: antialiased
+  margin-right: 2px
+  display: inline-block
+  font-size: 0.75rem
+
+[dir=rtl]
+  .timestamp:before, .search-page .card__date:before
+    margin-right: initial
+    margin-left: 2px
+
+.search-page [dir=rtl] .card__date:before
+  margin-right: initial
+  margin-left: 2px
+
+.timestamp, .search-page .card__date
+  margin-top: 5px
+  padding-top: 0
+  padding-bottom: 0
+
+.top-media
+  .slideshow-thumb__credits
+    padding-left: 15px
+    padding-right: 15px
+  iframe
+    max-width: 100%
+    display: block
+    margin: 0 auto
+
+.top-media--image
+  margin-top: 0
+  margin-bottom: 30px
+  .image
+    margin-bottom: 30px
+  .image__credit
+    padding-left: 0px
+    padding-right: 0px
+  .image__caption
+    padding-left: 0px
+    padding-right: 0px
+    border-bottom: 1px dotted #cccccc
+
+.top-media--video
+  margin-bottom: 30px
+
+.wide
+  .top-media, .top-media--image, .top-media .image
+    max-width: 970px
+    min-width: initial
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+
+.top-media
+  margin-bottom: 15px
+
+.top-media--image .image
+  margin-top: 0
+
+.trending__header
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1.75rem
+
+.trending__item
+  border-bottom: 1px dotted #b6b6b6
+  display: block
+  text-decoration: none
+  padding: 10px 0 7px 0
+  color: #000
+  &:hover
+    text-decoration: underline
+
+.trending__item__header
+  color: #000
+  display: block
+  font-family: "NotoNashkArabic", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  font-size: 1rem
+  line-height: 1.1875rem
+  font-weight: bold
+  margin-bottom: 5px
+  text-decoration: none
+
+.trending__item__image
+  margin: 10px 0 7px 0
+
+.video-page
+  background: #191919
+  color: #757575
+
+.video-page__main
+  border-bottom: 1px solid #2a292f
+
+.video-page__main__inner
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: start
+  -webkit-justify-content: flex-start
+  -ms-flex-pack: start
+  justify-content: flex-start
+  width: 100%
+
+.video-page__content
+  border-right: 1px solid #2a292f
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: end
+  -webkit-justify-content: flex-end
+  -ms-flex-pack: end
+  justify-content: flex-end
+  padding-right: 38px
+  -webkit-box-flex: 1
+  -webkit-flex-grow: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  -webkit-flex-shrink: 0
+  -ms-flex-negative: 0
+  flex-shrink: 0
+  -webkit-flex-basis: 340px
+  -ms-flex-preferred-size: 340px
+  flex-basis: 340px
+
+.video-page__content__ad
+  padding-bottom: 20px
+
+.video-page__content__inner
+  padding-top: 38px
+  -webkit-flex-basis: 300px
+  -ms-flex-preferred-size: 300px
+  flex-basis: 300px
+  -webkit-flex-shrink: 0
+  -ms-flex-negative: 0
+  flex-shrink: 0
+
+.video-page__content__label, .video-page__content__title, .video-page__content__description, .video-page__content__share-bar
+  padding-top: 6px
+  padding-bottom: 6px
+
+.video-page__video
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-orient: vertical
+  -webkit-box-direction: normal
+  -webkit-flex-direction: column
+  -ms-flex-direction: column
+  flex-direction: column
+  -webkit-box-flex: 1
+  -webkit-flex-grow: 1
+  -ms-flex-positive: 1
+  flex-grow: 1
+  -webkit-flex-basis: 823px
+  -ms-flex-preferred-size: 823px
+  flex-basis: 823px
+  -webkit-box-pack: justify
+  -webkit-justify-content: space-between
+  -ms-flex-pack: justify
+  justify-content: space-between
+
+.video-page__video__embed-code
+  padding: 38px 20px 38px 38px
+  max-width: 823px
+
+.video-page__content__label
+  color: #2e7061
+  font-size: 0.75rem
+  font-weight: bold
+
+.video-page__content__title
+  font-family: "ProximaNovaCond-Extrabld", "NotoKufiArabic-Bold", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif
+  color: #ffffff
+  font-size: 1.25rem
+  font-weight: bold
+  line-height: 1.375rem
+
+.video-page__content__description
+  font-size: 0.875rem
+  color: #757575
+
+.video-page
+  .share-bar--horizontal
+    .share-bar__item, .share-bar__item-link
+      width: 45px
+      height: 45px
+    .share-bar__social-counts
+      border-color: #2a292f
+    .share-bar__social-counts__number
+      color: #ffffff
+  #bottom-most-shared
+    .recirc--most-shared, .recirc .card__label__text
+      background-color: #191919
+    .recirc--most-shared
+      border-top: none
+    .recirc__title, .recirc__item .card__headline
+      color: #ffffff
+      margin-bottom: 20px
+
+@media (max-width: 1190px)
+  .video-page__main__inner
+    padding-left: 20px
+
+.share-bar--video-page
+  padding-bottom: 50px
+  .share-bar__list
+    position: static
+    padding-left: 0
+  .share-bar__item
+    display: block
+    font-size: 0.9375rem
+    height: 1.875rem
+    width: 2.1875rem
+    line-height: 1.875rem
+    text-decoration: none
+    text-align: center
+    margin-right: 5px
+    &:before
+      display: inline-block
+  .share-bar__item-link
+    display: block
+    font-size: 0.9375rem
+    height: 1.875rem
+    width: 2.1875rem
+    line-height: 1.875rem
+    text-decoration: none
+    text-align: center
+    border-radius: 2px
+    &:before
+      display: inline-block
+
+.nav-sticky--inverted
+  background: #ffffff
+  .nav-sticky__title
+    color: #222222
+  .nav-sticky__sharebar
+    background: #ffffff
+
+.video
+  .header
+    margin-bottom: 0
+  .below-entry
+    max-width: 630px
+    min-width: initial
+    width: 100%
+    margin-left: auto
+    margin-right: auto
+    display: none
+    display: inherit
+  .follow-us, .entry__comments
+    display: none
+    display: inherit
